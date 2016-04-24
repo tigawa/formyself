@@ -1,10 +1,10 @@
 +++
-date = "2016-04-25T00:02:03+09:00"
-description = ""
+title = "hugo2"
 tags = ["hugo"]
-title = "hugo"
+menu = "main"
 draft = "true"
 +++
 
-# 下書き
+# 下書きしています。
+
 <!--more-->
