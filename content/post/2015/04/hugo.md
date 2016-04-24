@@ -2,7 +2,7 @@
 title = "hugo2"
 tags = ["hugo"]
 menu = "main"
-draft = "true"
+draft = true
 +++
 
 # 下書きしています。
