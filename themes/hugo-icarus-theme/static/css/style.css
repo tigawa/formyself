@@ -1706,6 +1706,7 @@ pre .javascript .function {
     float: left;
     width: 21.5384615384615%;
     margin: 0 0.7692307692308%;
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
@@ -1761,7 +1762,7 @@ pre .javascript .function {
   margin-right: 5px;
 }
 .widget-wrap {
-  margin: 40px 10px;
+  margin: 0px 10px;
 }
 @media screen and (max-width: 559px) {
   .widget-wrap {
@@ -1772,7 +1773,7 @@ pre .javascript .function {
   margin-bottom: 0;
 }
 .widget {
-  padding: 15px 5px;
+  padding: 0px 5px;
 }
 .widget a {
   color: #777;

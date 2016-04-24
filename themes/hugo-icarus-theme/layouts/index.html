@@ -1,13 +1,12 @@
 {{ partial "head" . }}
-
 <div id="container">
     {{ partial "header" . }}
-
     <div class="outer">
     {{ partial "profile" . }}
     {{ partial "article_list" . }}
     {{ partial "sidebar" . }}
     </div>
+    {{ partial "ads.html" .}}
 </div>
 
 {{ partial "footer" . }}
