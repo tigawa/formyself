@@ -24,15 +24,11 @@ railsアプリをherokuに配備する方法を紹介します。
 
 - `gem`からインストールするより、次のコマンドでインストールするのが推奨のようです。
 
-  ```
-    wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-  ```
+        wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 - herokuツールからログインします。 ※初めの１回だけログインすれば、OKです。
 
-  ```
-    heroku auth:login #対話式にログインを行います。
-  ```
+        heroku auth:login #対話式にログインを行います。
 
 # 配備手順
 簡単なrailsのアプリを作成して、herokuへ配備するまで説明します。
@@ -40,92 +36,78 @@ railsアプリをherokuに配備する方法を紹介します。
 ## 1.railsアプリの作成
 - railsアプリの新規作成
 
-  ```
-    rails new memoller --skip-bundle
-  ```
+        rails new memoller --skip-bundle
 
 - Gemfileの編集
 
-  Gemfileに追記します。
+Gemfileに追記します。
 
-  ``` text : Gemfile
-
+  ``` ruby
   gem 'therubyracer'
-
   group :production do
-
-  gem 'pg'
-
+    gem 'pg'
   end
-
   ```
 
-  **※注意**
+**※注意**
 
-  `sqlite3`がherokuで有効になっているとエラーになります。 Gemfileが次のようになっていない場合は修正してください。デフォルトから変更していない場合は特に気にする必要はありません。  
+`sqlite3`がherokuで有効になっているとエラーになります。
 
-`text : Gemfile group :development, :test do      gem 'sqlite3' end`
+Gemfileが次のようになっていない場合は修正してください。デフォルトから変更していない場合は特に気にする必要はありません。
+
+  ```ruby
+  group :development,:test do
+    gem 'sqlite3'
+  end
+  ```
+
 - bundleインストール
 
-  ```
-    bundle install --path=vendor/bundle
-  ```
+        bundle install --path=vendor/bundle
 
 - scaffold
 
-  ```
-    bundle exec rails g scaffold memo title:string content:text
-  ```
+        bundle exec rails g scaffold memo title:string content:text
 
 - migrate
 
-  ```
-    bundle exec rake db:migrate
-  ```
+        bundle exec rake db:migrate
 
 - ローカルのサーバを起動
 
-  ```
-    bundle exec rails s
-  ```
+        bundle exec rails s
 
-- 次のurlをクリックして、動作確認します。  
+- 次のurlをクリックして、動作確認します。
 
     [http://localhost:4000/memos](http://localhost:4000/memos)
 
 ## 2.herokuに配備
+
 - herokuにアプリを登録します。 ※最後の引数はアプリ名です、herokuの全ユーザの中で一意にする必要があります。
 
-  ```
-    heroku create memoller
-  ```
+        heroku create memoller
 
 - herokuにソースをアップロードします。
 
-  ```
-    git add .
-    git commit -m "first committed."
-    git push heroku master
-  ```
+        git add .
+        git commit -m "first committed."
+        git push heroku master
 
 - heroku上のデータベースにテーブルを作成します。
 
-  ```
-    heroku run rake db:create
-    heroku run rake db:migrate
-  ```
+        heroku run rake db:create
+        heroku run rake db:migrate
 
 - ブラウザから確認します。　※なんと次のコマンドでブラウザを起動して確認できます。
 
-  ```
-    heroku apps:open
-  ```
+        heroku apps:open
 
 # 参考サイト
+
 以下のサイトを参考にさせていただきました。<br>ありがとうございました。  
 
-> [Railsで簡単なアプリをscaffoldで作ってHerokuにデプロイするまで](http://qiita.com/tstomoki/items/cd2391e028dc44dd6f409)
-> [heroku postgresのDBにローカルPCから遠隔アクセスする](http://qiita.com/emadurandal/items/b955a4eaa273529ebba0)
+> [Railsで簡単なアプリをscaffoldで作ってHerokuにデプロイするまで](http://qiita.com/tstomoki/items/cd2391e028dc44dd6f409)  
+> [heroku postgresのDBにローカルPCから遠隔アクセスする](http://qiita.com/emadurandal/items/b955a4eaa273529ebba0)  
 > [HerokuにRails 3.2.9/Bootstrapでデプロイ 最短・簡単ガイドだよ！](http://morizyun.github.io/blog/heroku-rails-postgresql/)
 
 以上
