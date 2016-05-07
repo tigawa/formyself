@@ -1,8 +1,7 @@
 +++
-title = "hugo2"
+title = "hugo"
 tags = ["hugo"]
-menu = "main"
-draft = "true"
+draft = true
 +++
 
 # 下書きしています。
