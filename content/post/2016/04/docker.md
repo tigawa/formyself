@@ -1,15 +1,19 @@
-+++ title = "docker" draft = "true" +++
++++
+title = "docker"
+draft = "true"
++++
+
 <!--more-->
 
 コマンド    | 内容
 :------ | :------
 ps      | コンテナの一覧
-start   | コンテナ起動
-run     | コンテナの作成と起動
-stop    | コンテナの停止
-restart | コンテナの再起動
-kill    | コンテナの強制停止
-rm      | コンテナの削除
+run     | イメージからスナップショット（コンテナ）を作成して起動
+start   | スナップショットを起動
+stop    | スナップショットを停止
+restart | スナップショットの再起動
+kill    | スナップショットの強制停止
+rm      | スナップショットの削除
 images  | イメージの一覧
 pull    | イメージをレジストリからダウンロード
 build   | dockerfileからイメージの作成
