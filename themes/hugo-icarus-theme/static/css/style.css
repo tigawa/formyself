@@ -1762,7 +1762,7 @@ pre .javascript .function {
   margin-right: 5px;
 }
 .widget-wrap {
-  margin: 0px 10px 10px;
+  margin: 0px 0px 10px;
 }
 @media screen and (max-width: 559px) {
   .widget-wrap {
