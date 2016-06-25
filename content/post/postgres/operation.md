@@ -1,9 +1,8 @@
 +++
 title = "運用管理"
 tags = ["PostgreSQL"]
-menu = "main"
+date = "2016-06-20"
 banner = "banners/postgres-banner.png"
-images = []
 draft = "true"
 +++
 
