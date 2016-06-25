@@ -1,12 +1,11 @@
 +++
 title = "pythonの数値、文字列を知る"
-tags = ["python"]
+tags = ["Python"]
 date = "2016-06-25"
 banner = "banners/python.png"
-draft = "true"
 +++
 
-今回は、第２章を取り上げます。
+今回は、第2章を取り上げます。
 
 勉強会で使用している本は最後に紹介しています。
 
@@ -18,25 +17,18 @@ draft = "true"
 
 数値や文字列の扱いについて書かれていました。
 
-## 気になったこと
+## 気になったこと・今後使いそうなコード
 
-- 除算には整数の除算(切捨て)と浮動小数点の除算がある。
+- 整数の除算(切捨て)がある。
 
     ```python
     # 整数の除算(切捨て)
     >>> 7 // 2
     3
-    # 浮動小数点の除算
-    >>> 7 / 2
-    3.5
     ```
 - 型変換
     ```python
     # int
-    >>> int(True)
-    1
-    >>> int(False)
-    0
     >>> int(98.6)
     98
     # float
@@ -47,8 +39,6 @@ draft = "true"
     # String
     >>> str(98.6)
     '98.6'
-    >>> str(True)
-    'True'
     ```
 
 - `int`はPyhon2までは、32ビットに制限されていたがPyhone3から制限はなくなった。こんなに大きな数字でも整数オーバーフローは発生しません。
@@ -76,14 +66,14 @@ draft = "true"
     >>> letters[4:20:3] #4文字目から 19文字目までを3文字毎に抽出
     'ehknqt'
     ```
-- その他文字列操作
+
+- 文字の結合　Joinはなんか気持ち悪いです。
     ```python
-    >>> crypto_list = ['Yeti', 'Bigfoot', 'Loch Ness Monster']
-    >>> crypto_string = ', '.join(crypto_list)
-    >>> print('Found and signing book deals:', crypto_string)
-    Found and signing book deals: Yeti, Bigfoot, Loch Ness Monster
+    >>> arr = ['a', 'b', 'c']
+    >>> print(', '.join(arr))
+    a, b, c
     ```
-- 多彩な文字列操作
+- 多彩な文字列操作　特に目新しものはないですね
 
         >>> poem = '''All that doth flow we cannot liguid name
         ... Or else would fire and water be the same;
@@ -109,7 +99,7 @@ draft = "true"
     False
     ```
 
-- 大文字と小文字の区別、配置
+- 大文字と小文字の区別、配置　`title()`タイトルケースがいいですね。
     ```python
     >>> setup = 'a duck goes into a bar...'
     >>> setup.strip('.')

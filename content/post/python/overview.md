@@ -1,8 +1,8 @@
 +++
 title = "Python3に挑戦!!"
-date = "2016-06-20T10:34:18+09:00"
-tags = ["Python"]
+date = "2016-06-24"
 banner = "banners/python.png"
+tags = ["Python"]
 +++
 
 機械学習などのライブラリなど揃っていることからPythonに興味が湧いてきました。今日からPythonの勉強を開始します。
