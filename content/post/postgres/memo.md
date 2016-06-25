@@ -7,6 +7,25 @@ draft = "true"
 +++
 
 # データ構想
+## メモリ
+- 共有バッファ（shared_buffers)
+
+  テーブルやインデクスのデータをメモリ上にキャッシュしておくためのバッファ
+  共有バッファにキャッシュすることで、デスクからの読み取り回数を減らす
+
+- WALバッファ（wal_buffers)
+
+  WALに書き込むときに使用されるバッファ、WALはトランザクション毎に書き込まれるため、あまり大きくしすぎる必要はない
+
+- ワークメモリ (work_mem)
+
+  ソートやハッシュ操作などで、バックエンドごとに確保されるメモリ。ワークメモリが大きいと、一時ファイルを作成せずにオンメモリでのソート処理やハッシュ操作が可能
+
+- メンテナンスワークメモリ (maintenance_work_mem)
+
+  VACUUMやCREATE INDEX 等のメンテナンスコマンド実行時に、バックエンド毎に確保されるメモリ。メンテナンスワークメモリが大きいと効率幼駒メンテサク業ができる
+
+
 ## プロセス構造
 
 PostgreSQL起動時に起動するプロセスと接続ごとに起動するプロセスに大別される
@@ -77,6 +96,21 @@ From database "benchdb":
 
 # pgstattuple
 
-初期設定
+## インストール (9.1以降)
+  =# create extension pgstattuple;
 
-    $ psql <db> -f <PGHOME>/share/contrib/pgstatuple.sql
+## インストール済みか確認
+  =# select extname, extversion FROM pg_extension;
+```
+extname   | extversion
+-------------+------------
+plpgsql     | 1.0
+pgstattuple | 1.1
+(2 rows)
+```
+
+## テーブル情報の取得
+  =# select * from pgstattuple('pgbench_accounts');
+
+## インデックス情報の取得
+=# select * from pgstatindex('pgbench_accounts_pkey');
