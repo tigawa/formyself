@@ -1913,13 +1913,13 @@ pre .javascript .function {
   height: 100%;
   display: block;
 }
-/* 再度メニューのサムネイル */
+/* サイドメニューのサムネイル */
 #recent-post li .item-thumbnail .thumbnail .thumbnail-image {
   position: absolute;
   -webkit-background-size: conta;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 #recent-post li .item-thumbnail .thumbnail .thumbnail-none {
   background-image: url("images/thumb-default-small.png");
