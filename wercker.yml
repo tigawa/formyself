@@ -11,8 +11,8 @@ build:
           cp public/index.xml public/atom.xml
 deploy:
   steps:
-    # - install-packages:
-    #     packages: git ssh-client perl liberror-perl perl-base
+    - install-packages:
+        packages: ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GITHUB_TOKEN
         domain: tigawa.github.com
