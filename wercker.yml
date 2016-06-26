@@ -11,6 +11,13 @@ build:
           cp public/index.xml public/atom.xml
 deploy:
   steps:
+    - script:
+        name: clean-apt-get
+        code: |
+          apt-get update && \
+          sudo apt-get install -f && \
+          sudo rm -rf /var/lib/apt/lists/* && \
+          sudo apt-get update
     - install-packages:
         packages: ssh-client
     - lukevivier/gh-pages@0.2.1:
