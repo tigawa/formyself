@@ -6,7 +6,11 @@ banner = "banners/postgres-banner.png"
 draft = "true"
 +++
 
-# データ構想
+PostgreSQLのデータ構造についてまとめています。
+
+<!--more-->
+
+# データ構造
 ## メモリ
 - 共有バッファ（shared_buffers)
 

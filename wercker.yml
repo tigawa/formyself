@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: 0.12
         theme: hugo-icarus-theme
-        # flags: --buildDrafts=true
+        flags: --buildDrafts=true
     - script:
         name: create old RSS file
         code: |
