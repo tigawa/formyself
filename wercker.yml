@@ -12,7 +12,7 @@ build:
 deploy:
   steps:
     - install-packages:
-        packages: git ssh-client perl liberror-perl
+        packages: git ssh-client libarchive-tar-perl
     - lukevivier/gh-pages@0.2.1:
         token: $GITHUB_TOKEN
         domain: tigawa.github.com
