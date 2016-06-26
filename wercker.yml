@@ -19,6 +19,6 @@ deploy:
         basedir: public
         repo: tigawa/tigawa.github.com
     - script:
-        name:clean
+        name: clean
         code: |
           sudo rm -rf /var/lib/apt/lists/*
