@@ -19,7 +19,7 @@ deploy:
           sudo rm -rf /var/lib/apt/lists/* && \
           sudo apt-get update
     - install-packages:
-        packages: ssh-client
+        packages: openssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GITHUB_TOKEN
         domain: tigawa.github.com
