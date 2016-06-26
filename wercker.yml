@@ -18,8 +18,8 @@ deploy:
           sudo apt-get install -f && \
           sudo rm -rf /var/lib/apt/lists/* && \
           sudo apt-get update
-    # - install-packages:
-    #     packages: ssh-client
+    - install-packages:
+        packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GITHUB_TOKEN
         domain: tigawa.github.com
