@@ -25,23 +25,95 @@ Pythonのリスト、タプル、辞書、集合について触れていきま�
     ```
 
   - ちょっとしたテクニック
-  ```python
-  # 一度に複数の変数に代入する方法
-  >>> t = ('1', '2', '3')
-  a, b, c = t
+    ```python
+    # 一度に複数の変数に代入する方法
+    >>> t = ('1', '2', '3')
+    a, b, c = t
 
-  # 変数の値を入れ替える（タプルのアンパックという手法らしい）
-  >>> password = 'swordfish'
-  >>> icecream = 'tuttifrutti'
-  password, icecream = icecream, password
-  ```
+    # 変数の値を入れ替える（タプルのアンパックという手法らしい）
+    >>> password = 'swordfish'
+    >>> icecream = 'tuttifrutti'
+    password, icecream = icecream, password
+    ```
 
 # 集合
 
   JavaのHashSetとよく似ていますが、和集合や積集合が使えるところが違います。
 
-  
+  - 宣言
+  ```python
+  # 空の集合を定義
+  >>> empty_set = set()
+  >>> even_numbers = {0, 2, 4, 6, 8}
+  >>> odd_numbers = {1, 3, 5, 7, 9}
 
+  # 文字列　-> 集合
+  >>> set( 'letters' )
+  {'r', 't', 's', 'e', 'l'}
+
+  # 配列　-> 集合 (タプルも同様)
+  >>> set( ['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon'])
+  {'Prancer', 'Dancer', 'Dasher', 'Mason-Dixon'}
+  ```
+  - HashSetとして一般的な使い方
+  ```python
+  >>> al = {'a','b','c'}
+  >>> 'a' in al
+  True
+  >>> 'x' in al
+  ```
+
+
+  - 積集合
+  ```python
+  >>> a = {1, 2}
+  >>> b = {2, 3}
+
+  >>> a & b
+  {2}
+  >>> a.intersection(b)
+  {2}
+  ```
+
+  - 和集合
+  ```python
+  >>> a | b
+  {1, 2, 3}
+  >>> a.union(b)
+  {1, 2, 3}
+  ```
+
+  - 差集合
+  ```python
+  >>> a - b
+  {1}
+  >>> a.difference(b)
+  {1}
+  ```
+
+  - 排他的OR
+  ```python
+  >>> a ^ b
+  {1, 3}
+  >>> a.symmetric_difference(b)
+  {1, 3}
+  ```
+
+  - 部分集合
+  ```python
+  >>> a <= b
+  False
+  >>> a.issubset(b)
+  False
+  ```
+
+  - 真部分集合
+  ```python
+  >>> a < b
+  False
+  >>> a < a
+  False
+  ```
 
 
 
