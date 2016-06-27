@@ -5,19 +5,9 @@ date = "2016-06-25"
 banner = "banners/python.png"
 +++
 
-今回は、第2章を取り上げます。
-
-勉強会で使用している本は最後に紹介しています。
+今回は数値や文字列の扱い方についてまとめています。
 
 <!--more-->
-
-[1章 Pyの味 へ]({{< relref "overview.md" >}})
-
-# 2章 Pyの成分：数値、文字列、変数
-
-数値や文字列の扱いについて書かれていました。
-
-## 気になったこと・今後使いそうなコード
 
 - 整数の除算(切捨て)がある。
 
@@ -114,9 +104,6 @@ banner = "banners/python.png"
     'A DUCK GOES INTO A BAR...'
     ```
 
-# 勉強会で使用している本
+## 下記の本で勉強をしています。
 
 <iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&nou=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=bmsirato-22&o=9&p=8&l=as1&m=amazon&f=ifr&ref=qf_sp_asin_til&asins=4873117380" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-
-第2章は以上です。

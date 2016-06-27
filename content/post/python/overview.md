@@ -15,11 +15,8 @@ tags = ["Python"]
 
 <iframe src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&nou=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=bmsirato-22&o=9&p=8&l=as1&m=amazon&f=ifr&ref=qf_sp_asin_til&asins=4873117380" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
-# 1章 Pyの味
+# Pythonのインタプリタ
 
-pythonの概要が書いてあり、特に引っかることなく読めました。
-
-### 気になったこと
 - rubyの`irb`のように`python`と入力するとインタプリタが起動します。
 - インタプリタ上で、`import this`と入力すると何やら英文が、どうやらPython哲学を簡潔に表現した自由詩らしいです。
 
@@ -46,6 +43,5 @@ pythonの概要が書いてあり、特に引っかることなく読めまし�
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
     ```
-  第１章は以上です。
-
-[第２章　pyの成分：数値、文字列、変数へ]({{< relref "String.md" >}})
+  
+[Pythonの文字列]({{< relref "String.md" >}})
