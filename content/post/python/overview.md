@@ -43,5 +43,5 @@ tags = ["Python"]
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
     ```
-  
-[Pythonの文字列]({{< relref "String.md" >}})
+
+["pythonの数値、文字列を知る"]({{< relref "String.md" >}})
