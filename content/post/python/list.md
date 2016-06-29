@@ -1,153 +1,101 @@
 +++
-title = "Pythonのリスト、タプル、辞書、集合"
+title = "Pythonのリスト"
 tags = ["Python"]
-date = "2016-06-27"
+date = "2016-06-30"
 banner = "banners/python.png"
 +++
 
-Pythonのリスト、タプル、辞書、集合について触れていきます。
-特にタプルと集合は、Javaで扱ったことがなったので新鮮でした。そのあたりを中心にまとめます。
+Pythonのリストについて触れていきます。
+
+リストは基本中の基本ですね。しっかり抑えておきたいところです。
 
 <!--more-->
+# リスト
 
-# タプル
-
-  リストとほぼ同じです。イミュータブル（変更不可）という点が違います。
-
-## 宣言
-
-  - カッコで囲む。 配列は`[]`で表しますが、タプルは`()`で表します。
-
-      ```python
-      >>> tuple2 = ('a','b','c')
-      ```
-
-  - カッコをつけなくて、最後にカンマをつけるだけでもOK
-
-      ```python
-      >>> tuple1 = 'a','b','c',
-      ```
-
-  - tuple関数で配列をタプルに変換
-
-      ```python
-      >>> tuple(['a','b','c'])
-      ```
-
-## ちょっとしたテクニック
-
-  - 一度に複数の変数に代入する方法
-
-      ```python
-      >>> t = ('1', '2', '3')
-      >>> a, b, c = t
-      ```
-
-  - 変数の値を入れ替える（タプルのアンパックという手法らしい）
-
-      ```python
-      >>> password = 'swordfish'
-      >>> icecream = 'tuttifrutti'
-      >>> password, icecream = icecream, password
-      ```
-
-
-# 集合
-
-  JavaのHashSetとよく似ていますが、和集合や積集合が使えるところが違います。
+  リストは特に目新しいことはなかったです。
 
 ## 宣言
 
-- 空の集合を定義
+- リストは`[]`で囲む
 
     ```python
-    >>> empty_set = set()
-    >>> even_numbers = {0, 2, 4, 6, 8}
-    >>> odd_numbers = {1, 3, 5, 7, 9}
+    >>> empty_list = [ ]
+    >>> list = ['a','b','c']
     ```
 
-- 文字列　-> 集合
+- list()関数で、リストを生成
 
     ```python
-    >>> set( 'letters' )
-    {'r', 't', 's', 'e', 'l'}
+    >>> empty = list()
     ```
 
-- 配列　-> 集合 (タプルも同様)
+- タプル -> リスト
 
     ```python
-    >>> set( ['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon'])
-    {'Prancer', 'Dancer', 'Dasher', 'Mason-Dixon'}
+    >>> a_tuple = ('a','b','c')
+    >>> list(a_tuple)
+    ['a','b','c']
     ```
 
-## HashSetとして一般的な使い方
+## 要素の取り出し
 
-  - sqlだと'a'が右になるのでちょっと気持ちわるい。でも英語の文法的にはこちらのほうが正しいのかな？
+- オフセットを使用した参照 文字列をスライスする時と同じ感覚で扱えます。
 
     ```python
-    >>> al = {'a','b','c'}
-    >>> 'a' in al
-    True
-    >>> 'x' in al
+    >>> list = ['a','b','c']
+    >>> list[0]
+    'a'
+    >>> list[-1]
+    'c'
+    >>> list[0:2]
+    ['a','b']
+    >>> list[::2]
+    ['a','b']
     ```
 
-## 集合
+    **注意** データを超えるオフセットをした場合にエラーになるので注意してください。
 
-- 積集合
+- リストを逆順にするワザ
 
     ```python
-    >>> a = {1, 2}
-    >>> b = {2, 3}
-
-    >>> a & b
-    {2}
-    >>> a.intersection(b)
-    {2}
+    >>> list[::-1]
+    ['c','b','a']
     ```
 
-- 和集合
+## リストの操作
+
+リストの操作に関するメソッド及び、関数を下記に整理しました。
+
+メソッドではなく、関数で用意されているものがあるので要注意ですね。
+
+操作       | メソッド     | 使用例
+:------- | :------- | :-------
+要素を追加(最後) | append() | `list.append('d')`
+要素を追加 | insert() | `list.insert(4,'z')`
+要素の削除 | del | `del list[2]`
+要素の削除 | remove() | `list.remove('c')`
+リストの結合| extend() | `list.extend(list2)`
+リストの結合| += | `list += list2`
+キュー操作| pop() | `list.pop() オフセットの指定なければ、-1`
+オフセットの取得 | index() | `list.index('b')`
+要素を含むか　| in | `'a' in list`
+個数の計算　| count() | `list.count('a')`
+文字列変換　| join() | `', '.join(list)`
+ソート(破壊的) | sort() | list.sort()
+ソート | sorted | sorted(list)
+長さの取得| len | len(list)
+
+insert()で、リストのサイズを超えるオフセットを指定した場合は、一番最後に追加されます。
+いけてる！
+
+## リストのコピー
+
+  - 色々コピーの仕方があります。
 
     ```python
-    >>> a | b
-    {1, 2, 3}
-    >>> a.union(b)
-    {1, 2, 3}
-    ```
-
-- 差集合
-
-    ```python
-    >>> a - b
-    {1}
-    >>> a.difference(b)
-    {1}
-    ```
-
-- 排他的OR
-
-    ```python
-    >>> a ^ b
-    {1, 3}
-    >>> a.symmetric_difference(b)
-    {1, 3}
-  ```
-
-- 部分集合
-
-    ```python
-    >>> a <= b
-    False
-    >>> a.issubset(b)
-    False
-    ```
-
-- 真部分集合
-
-    ```python
-    >>> a < b
-    False
-    >>> a < a
-    False
+    >>> list_copy1 = a.copy()
+    >>> list_copy2 = list(a)
+    >>> list_copy3 = list[:]
     ```
 
 # 勉強に使用している本

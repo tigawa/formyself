@@ -61,6 +61,11 @@ theme = "hugo-icarus-theme"
     label  = "linux"
     link   = "tags/linux/"
 
+  [[params.menu]]
+      before = true
+      label  = "Python"
+      link   = "tags/python/"
+
 # [[params.menu]]
 #     before = false
 #     label  = "Categories"

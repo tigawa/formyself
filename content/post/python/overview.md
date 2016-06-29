@@ -44,4 +44,4 @@ tags = ["Python"]
     Namespaces are one honking great idea -- let's do more of those!
     ```
 
-["pythonの数値、文字列を知る"]({{< relref "String.md" >}})
+[pythonの数値、文字列を知るへ]({{< relref "String.md" >}})
