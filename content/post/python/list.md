@@ -6,7 +6,7 @@ banner = "banners/python.png"
 +++
 
 Pythonのリスト、タプル、辞書、集合について触れていきます。
-特にタプルと集合は、他の言語で扱ったことがなったので新鮮でした。そのあたりを中心にまとめます。
+特にタプルと集合は、Javaで扱ったことがなったので新鮮でした。そのあたりを中心にまとめます。
 
 <!--more-->
 
@@ -82,69 +82,73 @@ Pythonのリスト、タプル、辞書、集合について触れていきま�
 
 ## HashSetとして一般的な使い方
 
-  ```python
-  >>> al = {'a','b','c'}
-  >>> 'a' in al
-  True
-  >>> 'x' in al
+  - sqlだと'a'が右になるのでちょっと気持ちわるい。でも英語の文法的にはこちらのほうが正しいのかな？
+
+    ```python
+    >>> al = {'a','b','c'}
+    >>> 'a' in al
+    True
+    >>> 'x' in al
+    ```
+
+## 集合
+
+- 積集合
+
+    ```python
+    >>> a = {1, 2}
+    >>> b = {2, 3}
+
+    >>> a & b
+    {2}
+    >>> a.intersection(b)
+    {2}
+    ```
+
+- 和集合
+
+    ```python
+    >>> a | b
+    {1, 2, 3}
+    >>> a.union(b)
+    {1, 2, 3}
+    ```
+
+- 差集合
+
+    ```python
+    >>> a - b
+    {1}
+    >>> a.difference(b)
+    {1}
+    ```
+
+- 排他的OR
+
+    ```python
+    >>> a ^ b
+    {1, 3}
+    >>> a.symmetric_difference(b)
+    {1, 3}
   ```
 
-## 積集合
+- 部分集合
 
-  ```python
-  >>> a = {1, 2}
-  >>> b = {2, 3}
+    ```python
+    >>> a <= b
+    False
+    >>> a.issubset(b)
+    False
+    ```
 
-  >>> a & b
-  {2}
-  >>> a.intersection(b)
-  {2}
-  ```
+- 真部分集合
 
-## 和集合
-
-  ```python
-  >>> a | b
-  {1, 2, 3}
-  >>> a.union(b)
-  {1, 2, 3}
-  ```
-
-## 差集合
-
-  ```python
-  >>> a - b
-  {1}
-  >>> a.difference(b)
-  {1}
-  ```
-
-## 排他的OR
-
-  ```python
-  >>> a ^ b
-  {1, 3}
-  >>> a.symmetric_difference(b)
-  {1, 3}
-  ```
-
-## 部分集合
-
-  ```python
-  >>> a <= b
-  False
-  >>> a.issubset(b)
-  False
-  ```
-
-## 真部分集合
-
-  ```python
-  >>> a < b
-  False
-  >>> a < a
-  False
-  ```
+    ```python
+    >>> a < b
+    False
+    >>> a < a
+    False
+    ```
 
 # 勉強に使用している本
 
