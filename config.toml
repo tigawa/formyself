@@ -61,10 +61,15 @@ theme = "hugo-icarus-theme"
     label  = "linux"
     link   = "tags/linux/"
 
-  [[params.menu]]
-      before = true
-      label  = "Python"
-      link   = "tags/python/"
+[[params.menu]]
+    before = true
+    label  = "Python"
+    link   = "tags/python/"
+
+[[params.menu]]
+    before = true
+    label  = "bookmarks"
+    link   = "blog/2016/07/16/bookmark/"
 
 # [[params.menu]]
 #     before = false
