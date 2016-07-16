@@ -1,7 +1,7 @@
 +++
 title = "pandasでピボットテーブルで割合を表示する。"
 tags = ["python","pandas","機械学習"]
-date = "2016-07-16"
+date = "2016-07-16T01:00:00+09:00"
 banner = "banners/pandas.png"
 +++
 
@@ -16,7 +16,8 @@ banner = "banners/pandas.png"
 - コード
 
   ```python
-  pt.apply(lambda x : x/sum(x), axis=1)
+  pt2 = pt.apply(lambda x : x/sum(x), axis=1)
+  pt2
   ```
 
   pt(ピポットテーブル)については、[前回]({{<relref "pivot.md">}})の記事を参考にしてください。
