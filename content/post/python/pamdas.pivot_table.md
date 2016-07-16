@@ -1,6 +1,6 @@
 +++
 title = "pandasでピボットテーブルを扱う"
-tags = ["python","pandas"]
+tags = ["python","機械学習"]
 date = "2016-07-16"
 banner = "banners/pandas.png"
 +++
