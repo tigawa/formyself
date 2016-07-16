@@ -68,8 +68,13 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = true
+    label  = "pandas"
+    link   = "tags/pandas/"
+
+[[params.menu]]
+    before = true
     label  = "bookmarks"
-    link   = "blog/2016/07/16/bookmark/"
+    link   = "blog/2016/07/14/bookmark/"
 
 # [[params.menu]]
 #     before = false

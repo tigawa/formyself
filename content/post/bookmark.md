@@ -1,7 +1,6 @@
 +++
 title = "bookmarks"
 date = "2016-07-14"
-draft = "true"
 +++
 
 個人的に、役に立つサイトをまとめています。
