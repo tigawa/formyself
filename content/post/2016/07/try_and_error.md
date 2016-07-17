@@ -1,7 +1,8 @@
 +++
 title = "子育て ✕ 試行錯誤"
-tags = ["tags"]
+tags = ["子育て"]
 date = "2016-07-17"
+banner = "banners/l_055.jpg"
 +++
 
 子育てって大変ですよね。

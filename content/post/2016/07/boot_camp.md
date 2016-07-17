@@ -1,7 +1,8 @@
 +++
 title = "機械学習Bootcampに参加したときのメモ"
-tags = ["機械学習"]
+tags = ["python","pandas","機械学習"]
 date = "2016-07-14"
+banner = "banners/gear.jpg"
 +++
 
 2泊3日で機械学習を学ぶ合宿に参加してきました。
