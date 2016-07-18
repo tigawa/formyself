@@ -68,8 +68,8 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = true
-    label  = "pandas"
-    link   = "tags/pandas/"
+    label  = "機械学習"
+    link   = "tags/機械学習/"
 
 [[params.menu]]
     before = true

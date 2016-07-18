@@ -1,7 +1,7 @@
 +++
 title = "機械学習Bootcampに参加したときのメモ"
 tags = ["python","pandas","機械学習"]
-date = "2016-07-14"
+date = "2016-07-17"
 banner = "banners/gear.jpg"
 +++
 
@@ -126,7 +126,7 @@ python、機械学習を全くしらないところから参加して
 ## 講師の先生のおすすめの資料
 - [データサイエンティストのいろは](http://www.slideshare.net/hijiki_s/20150307-py-datatutorial)
   - シバタアキラさんの資料(p.21〜)
-- [機械学習コンペションにおける予測モデル手法](http://yukino.moo.jp/2016-07-16-DDBJ.pdf)
+- [機械学習コンペションにおける予測モデル手法]((http://yukino.moo.jp/2016-07-06-DDBJ.pdf))
 
 ## 予測モデルの取出し方
 modleをシリアライズして他でつかう。
@@ -229,6 +229,8 @@ X_train, X_test, y_train, y_test = cross_validation.train_test_split(X,y,test_si
 
 ## 機械学習コンペティションにおける予測モデリング手法の傾向
 [資料](http://yukino.moo.jp/2016-07-06-DDBJ.pdf)
+
+上記の資料がとてもわかりやすいということで、この資料を参考に１日目の講義の復習を行いました。
 
 1. 特徴設計・特徴選択
   - なんのカラムを使うか
