@@ -1,6 +1,6 @@
 +++
 title = "pandasでindexを設定する方法"
-tags = ["python","pandas","機械学習"]
+tags = ["機械学習"]
 date = "2016-07-17"
 banner = "banners/pandas.png"
 +++

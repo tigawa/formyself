@@ -1,6 +1,6 @@
 +++
 title = "dataFrameから欠損値を削除"
-tags = ["python","pandas","機械学習"]
+tags = ["機械学習"]
 date = "2016-07-16"
 banner = "banners/pandas.png"
 +++

@@ -1,6 +1,6 @@
 +++
 title = "pandasでピボットテーブルで割合を表示する。"
-tags = ["python","pandas","機械学習"]
+tags = ["機械学習"]
 date = "2016-07-16T01:00:00+09:00"
 banner = "banners/pandas.png"
 +++

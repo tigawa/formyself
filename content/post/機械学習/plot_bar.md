@@ -1,6 +1,6 @@
 +++
 title = "ピボットテーブルを棒グラフで表示する"
-tags = ["python","pandas","機械学習"]
+tags = ["機械学習"]
 date = "2016-07-16T02:00:00+09:00"
 banner = "banners/pandas.png"
 +++
