@@ -1,38 +1,13 @@
 +++
-title = "pythonのジェネレータについて"
+title = ""
 tags = ["python"]
 date = "2016-07-31"
 banner = "banners/python.png"
+draft = "true"
 +++
 
-pythonのジェネレータについて、紹介します。
 
 <!--more-->
-
-range(1,10)は、ジェネレータのひとつです。
-
-ジェネレータは、メモリに全ての数字を展開しないというのが特徴
-
-大きくなる可能性があるシーケンスを作りたい場合に便利に、ジェネレータ関数は便利です。
-
-- ジェネレータ関数の例
-
-    ```python
-    >>> def my_range(first=0, last=10, step=1):
-    ...   number = first
-    ...   while number < last:
-    ...     yield number
-    ...     number += step
-    ...
-    >>>
-    >>> list(my_range(step=2))
-    [0, 2, 4, 6, 8]
-    ```
-
-値を`return`でなく、`yield`で返すことを除けば通常の関数と同じです。
-
-## 注意
-python2ではrangeはジェネレータではなく、xrange()がジェネレータとして用意されています。
 
 以上です。
 
