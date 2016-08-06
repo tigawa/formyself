@@ -34,6 +34,33 @@ pyhonの標準ライブラリである。`collections`について紹介です�
     defaultdict(<function <lambda> at 0x10140a9d8>, {'A': [1, 2], 'B': [3, 4]})```
     ```
 
+# OrderedDict
+
+辞書とリストの両方の性質をもつクラスです。(Javaでいう`LinkedHashMap`みたいなやつです。)
+
+- コード
+
+    ```python
+    >>> from collections import OrderedDict
+    >>> quotes = OrderedDict([
+    ... ('Mce', 'A wise guy, huh?'),
+    ... ('Larry', 'Ow!'),
+    ... ('Curly', 'Nyuk nyuk!'),
+    ... ])
+    >>>
+    >>> for key, value in quotes.items():
+    ...   print(key, value)
+    ...
+    Mce A wise guy, huh?
+    Larry Ow!
+    Curly Nyuk nyuk!
+    ```
+
+辞書の部分は、タプルで記述します。
+
+(key, value)
+
+
 以上です。
 
 # 勉強に使用している本

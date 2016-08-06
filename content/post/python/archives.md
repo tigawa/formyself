@@ -10,9 +10,23 @@ date = "2016-01-01"
 [辞書]({{< relref "dict.md" >}})       | [デレコータ]({{< relref "decorator.md" >}}) |
 [リスト]({{< relref "list.md" >}})      | [ジェネレータ]({{< relref "generator.md" >}}) |
 [タプル、集合]({{< relref "tuple.md" >}})  | [collections]({{< relref "collections.md" >}})|
-[if文、for文]({{< relref "code.md" >}}) | |
+[if文、for文]({{< relref "code.md" >}}) | [itertools]({{< relref "itertools.md" >}})|
 [パッケージ]({{< relref "package.md" >}}) | |
 
-- [標準ライブラリ 公式ドキュメント](https://docs.python.org/3/library/)
-- [標準ライブラリ チュートリアル](https://docs.python.org/3.3/tutorial/index.html)
-- [今週のpyhonモジュール](https://doughellmann.com/blog/the-python-standard-library-by-example/)
+<div style="display:inline-block">
+標準ライブラリ
+  <ul>
+    <li><a href="https://docs.python.org/3/library/">標準ライブラリ 公式ドキュメント</a></li>
+    <li><a href="https://docs.python.org/3.3/tutorial/index.html">標準ライブラリ チュートリアル</a></li>
+    <li><a href="https://doughellmann.com/blog/the-python-standard-library-by-example/">今週のpyhonモジュール</a></li>
+  </ul>
+</div>
+
+<div style="display:inline-block">
+サードパーティ
+  <ul>
+    <li><a href="https://pypi.python.org/pypi">PyPI</a></li>
+    <li><a href="https://github.com/Python">github</a></li>
+    <li><a href="https://readthedocs.org">readthedocs</a></li>
+  </ul>
+</div>
