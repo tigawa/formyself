@@ -38,11 +38,6 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = true
-    label  = "Tags"
-    link   = "tags/"
-
-[[params.menu]]
-    before = true
     label  = "java"
     link   = "tags/java"
 
@@ -69,12 +64,12 @@ theme = "hugo-icarus-theme"
 [[params.menu]]
     before = true
     label  = "機械学習"
-    link   = "tags/機械学習/"
+    link   = "blog/2016/01/02/archives"
 
-[[params.menu]]
-    before = true
-    label  = "bookmarks"
-    link   = "blog/2016/07/14/bookmark/"
+# [[params.menu]]
+#     before = true
+#     label  = "bookmarks"
+#     link   = "blog/2016/07/14/bookmark/"
 
 # [[params.menu]]
 #     before = false
