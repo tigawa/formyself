@@ -5,14 +5,34 @@ date = "2016-06-30"
 banner = "banners/python.png"
 +++
 
-Pythonのリストについて触れていきます。
-
 リストは基本中の基本ですね。しっかり抑えておきたいところです。
 
 <!--more-->
-# リスト
+## リストの操作
 
-  リストは特に目新しいことはなかったです。
+メソッドと、関数があるので要注意です！。
+
+操作       | メソッド     | 使用例
+:------- | :------- | :-------
+追加(最後) | append() | `list.append('d')`
+取得(先頭) | - | `list[0]`
+取得(最後) | - | `list[-1]`
+取得(最後)+削除| pop() | `list.pop() オフセットの指定なければ、-1`
+追加(任意の場所) | insert() | `list.insert(4,'z')`
+削除 | del | `del list[2]`
+削除 | remove() | `list.remove('c')`
+リストの結合| extend() | `list.extend(list2)`
+リストの結合| += | `list += list2`
+オフセットの取得 | index() | `list.index('b')`
+要素を含むか　| in | `'a' in list`
+個数の計算　| count() | `list.count('a')`
+文字列変換　| join() | `', '.join(list)`
+ソート(破壊的) | sort() | list.sort()
+ソート | sorted | sorted(list)
+長さの取得| len | len(list)
+
+insert()で、リストのサイズを超えるオフセットを指定した場合は、一番最後に追加されます。
+いけてる！
 
 ## 宣言
 
@@ -61,32 +81,6 @@ Pythonのリストについて触れていきます。
     >>> list[::-1]
     ['c','b','a']
     ```
-
-## リストの操作
-
-リストの操作に関するメソッド及び、関数を下記に整理しました。
-
-メソッドではなく、関数で用意されているものがあるので要注意ですね。
-
-操作       | メソッド     | 使用例
-:------- | :------- | :-------
-要素を追加(最後) | append() | `list.append('d')`
-要素を追加 | insert() | `list.insert(4,'z')`
-要素の削除 | del | `del list[2]`
-要素の削除 | remove() | `list.remove('c')`
-リストの結合| extend() | `list.extend(list2)`
-リストの結合| += | `list += list2`
-キュー操作| pop() | `list.pop() オフセットの指定なければ、-1`
-オフセットの取得 | index() | `list.index('b')`
-要素を含むか　| in | `'a' in list`
-個数の計算　| count() | `list.count('a')`
-文字列変換　| join() | `', '.join(list)`
-ソート(破壊的) | sort() | list.sort()
-ソート | sorted | sorted(list)
-長さの取得| len | len(list)
-
-insert()で、リストのサイズを超えるオフセットを指定した場合は、一番最後に追加されます。
-いけてる！
 
 ## リストのコピー
 

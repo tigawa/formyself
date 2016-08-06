@@ -64,7 +64,7 @@ theme = "hugo-icarus-theme"
 [[params.menu]]
     before = true
     label  = "Python"
-    link   = "tags/python/"
+    link   = "blog/2016/01/01/archives"
 
 [[params.menu]]
     before = true

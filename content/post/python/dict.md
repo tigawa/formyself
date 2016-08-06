@@ -5,14 +5,26 @@ date = "2016-06-30"
 banner = "banners/python.png"
 +++
 
-Pythonの辞書(HashMap)について触れていきます。
-
-これも基本中の基本ですね。しっかり抑えておきたいところです。
+基本中の基本ですね。しっかり抑えておきたいところです。
 
 <!--more-->
-# 辞書
+## 辞書の操作
 
-  JavaのHashMapと思えば、とくに引っかかることなく理解できました。
+メソッドと関数があるので要注意です。
+
+操作       | メソッド     | 使用例
+:------- | :------- | :-------
+取得(キーがない＝例外)| -  | `dict_a['tanaka']`
+取得(キーがない＝None)| get()  | `dict_a.get('tanaka')`
+取得(キーがない＝'default')| get()  | `dict_a.get('tanaka', 'default')`
+追加,変更 | -  | `dict_a['tanaka'] = 'tarou'`
+削除 | del  | `del dict_a['tanaka']`
+全削除 | clear() | `dict_a.clear()`
+結合 | update()  | `dict_a.update(dict_b)`
+キーを含むか | in  | `'tanaka' in dict_a`
+全てのキーを取得 | keys() | `dict_a.keys()`
+全ての値を取得 | values() | `dict_a.values()`
+全てのキーと値を取得 | items() | `dict_a.items()`
 
 ## 宣言
 
@@ -34,47 +46,6 @@ Pythonの辞書(HashMap)について触れていきます。
     >>> dict(lol)
     ```
     タプルも同様
-
-## 辞書の操作
-
-辞書の操作に関するメソッド及び、関数を下記に整理しました。
-
-メソッドではなく、関数で用意されているものがあるので要注意ですね。
-
-操作       | メソッド     | 使用例
-:------- | :------- | :-------
-要素の追加,変更 | -  | `dict_a['tanaka'] = 'tarou'`
-要素の削除 | del  | `del dict_a['tanaka']`
-全要素削除 | clear() | `dict_a.clear()`
-辞書の結合 | update()  | `dict_a.update(dict_b)`
-キーを含むか | in  | `'a' in dict_a`
-全てのキーを取得 | keys() | `dict_a.keys()`
-全ての値を取得 | values() | `dict_a.values()`
-全てのキーと値を取得 | items() | `dict_a.items()`
-
-## 要素の取得
-
-- オフセット指定
-
-    ```python
-    >>> dict_a['a']
-    ```
-
-    **注意** この指定だと要素がない場合に、例外が発生する
-
-- get()メソッド
-
-    ```python
-    >>> dict_a.get('a')
-    ```
-
-    存在しない場合は、Noneを返す。
-
-- get()メソッド、なかった場合のデフォルト指定
-
-    ```python
-    >>> dict_a.get('a', 'default')
-    ```
 
 # 勉強に使用している本
 
