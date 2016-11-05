@@ -7,6 +7,8 @@ banner = "banners/python.png"
 
 pyhonの標準ライブラリである。`collections`について紹介です。
 
+[公式ドキュメント](http://docs.python.jp/2/library/collections.html)
+
 <!--more-->
 
 # defaultdict
@@ -60,6 +62,27 @@ pyhonの標準ライブラリである。`collections`について紹介です�
 
 (key, value)
 
+# Counter
+
+配列の各要素の数を求めてくれます。
+
+```python
+from collections import Counter
+
+data = ['aaa', 'bbb', 'ccc', 'aaa', 'ddd']
+counter = Counter(data)
+for word, cnt in counter.most_common():
+    print word, cnt # =>
+                    #   aaa 2
+                    #   bbb 1
+                    #   ccc 1
+                    #   ddd 1
+```
+
+- 参考サイト
+[Pythonで単語の数え上げとかするならCounterを使うと便利なはなし](http://qiita.com/hatchinee/items/a904c1f8d732a4686c9d)
+
+大変勉強になりました。ありがとうございました。
 
 以上です。
 

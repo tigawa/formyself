@@ -7,6 +7,8 @@ banner = "banners/python.png"
 
 pyhonの標準ライブラリである。`itertools`について紹介です。
 
+[公式ドキュメント](http://docs.python.jp/2/library/itertools.html#module-itertools)
+
 <!--more-->
 
 # accumulate
@@ -27,6 +29,16 @@ lamdbaを指定しなければ、デフォルトでは加算します。
     24
     ```
 
+# count
+
+機械学習で、コードを数値に変換したときなど、以下のように`count`を使用すれば簡単にできます。
+
+```python
+from itertools import count
+dict(zip(['a','b'], count(1)))
+#=>
+# {'a': 1, 'b': 2}
+```
 
 以上です。
 

@@ -8,7 +8,43 @@ banner = "banners/python.png"
 今回は文字列や数値の扱い方についてまとめています。
 
 <!--more-->
-- 多彩な文字列操作　特に目新しものはないですね
+- 文字列のフォーマット
+
+  - % お手軽版
+    ```python
+    >>> "%02d" % (1)
+    '01'
+    ```
+
+  - format
+
+    - インデックスによるアクセス
+
+    ```python
+    >>> '{0}, {1}, {2}'.format('a', 'b', 'c')
+    'a, b, c'
+    >>> '{}, {}, {}'.format('a', 'b', 'c')  # 2.7+ only
+    'a, b, c'
+    >>> '{2}, {1}, {0}'.format('a', 'b', 'c')
+    ```
+
+    - keyによるアクセス
+
+    ```python
+    >>> 'Coordinates: {latitude}, {longitude}'.format(latitude='37.24N', longitude='-115.81W')
+    'Coordinates: 37.24N, -115.81W'
+
+    >>> coord = {'latitude': '37.24N', 'longitude': '-115.81W'}
+    >>> 'Coordinates: {latitude}, {longitude}'.format(**coord)
+    'Coordinates: 37.24N, -115.81W'
+    ```
+
+    - 参考サイト
+      - [公式ドキュメント](http://docs.python.jp/2/library/string.html#formatexamples)
+
+
+
+- 文字の比較
 
         >>> poem = '''All that doth flow we cannot liguid name
         ... Or else would fire and water be the same;
