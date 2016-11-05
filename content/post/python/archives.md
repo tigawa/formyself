@@ -11,7 +11,7 @@ date = "2016-01-01"
 [リスト]({{< relref "list.md" >}})      | [ジェネレータ]({{< relref "generator.md" >}}) |
 [タプル、集合]({{< relref "tuple.md" >}})  | [collections]({{< relref "collections.md" >}})|
 [if文、for文]({{< relref "code.md" >}}) | [itertools]({{< relref "itertools.md" >}})|
-[パッケージ]({{< relref "package.md" >}}) | |
+[パッケージ]({{< relref "package.md" >}}) | [class定義]({{< relref "class.md" >}})|
 
 <div style="display:inline-block">
 標準ライブラリ
