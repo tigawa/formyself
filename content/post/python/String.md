@@ -10,18 +10,18 @@ banner = "banners/python.png"
 <!--more-->
 - 文字列のフォーマット
 
-  - % お手軽版
+  - % 古い書式指定
     ```python
     >>> "%02d" % (1)
     '01'
     ```
 
-  - format
+  - format 新しい書式指定
 
     - インデックスによるアクセス
 
     ```python
-    >>> '{0}, {1}, {2}'.format('a', 'b', 'c')
+    >>> '{0:02d}, {1}, {2}'.format(2, 'b', 'c')
     'a, b, c'
     >>> '{}, {}, {}'.format('a', 'b', 'c')  # 2.7+ only
     'a, b, c'
