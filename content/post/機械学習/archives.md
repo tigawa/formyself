@@ -9,6 +9,7 @@ date = "2016-01-02"
 [ピボットテーブル]({{< relref "pivot.md" >}})　| [dataFrame 欠損値を削除]({{< relref "dropna.md" >}})|
 [ピボットテーブル -> 割合]({{< relref "pivot2.md" >}})      | [dataFrame 項目更新]({{< relref "loc.md" >}})|
 [ピボットテーブル -> 棒グラフ]({{< relref "plot_bar.md" >}}) | [dataFrame indexの設定]({{< relref "unique.md" >}}) |
+[ピボットテーブル -> 棒グラフ]({{< relref "plot_bar.md" >}}) | [dataFrame 項目の編集(lambda)]({{< relref "pandas_lambda.md" >}}) |
 
 - [pandas チートシート]({{< relref "pandas_cheat.md" >}})
 - [pandasでよく使う文法まとめ](http://qiita.com/okadate/items/7b9620a5e64b4e906c42)

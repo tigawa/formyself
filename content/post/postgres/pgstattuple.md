@@ -55,4 +55,11 @@ leaf_fragmentation | 0
 ### ここから読み取れる情報
 
 - tree_level インデックスの深さ 1段
--
+- index_size インデックスのサイズ 2260992byte
+- ページ数 = index_size(2260992byte) / 8192byte = 276ページ
+- root_block_no 実質ルート 3ページ目
+- ページの内訳　274(リーフページ) + 1(internal_pages) + 1(メタページ)　= 276ページ
+
+
+## 注意事項
+- pgstattuple、pgstatindexどちらもテーブル・インデックスのフルスキャンを実行するため、本番環境で実行するときは注意が必要。

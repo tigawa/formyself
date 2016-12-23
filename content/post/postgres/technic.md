@@ -42,3 +42,7 @@ PostgreSQLで大量のテストデータを生成したい時に、`generate_ser
 使い方は下記のサイトが参考になります。
 
 [PostgreSQLでテストデータを作成する](http://lets.postgresql.jp/documents/technical/gen_data/1)
+
+## 特定テーブルのデータファイルを探す方法
+
+[ここの記事がまとめられていて、大変わかりやすいです。](https://gist.github.com/Epictetus/3386858)
