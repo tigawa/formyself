@@ -9,7 +9,6 @@ banner = "banners/html5.png"
 
 ![完成イメージ](/images/layout-center-2-button.png)
 
-
 <!--more-->
 
 さっそくソースです。
