@@ -3,10 +3,6 @@ build:
   steps:
     - install-packages:
         packages: git
-    - script:
-        name: download theme
-        code: |
-            $(git clone https://github.com/digitalcraftsman/hugo-icarus-theme.git ./themes/hugo-icarus-theme)
     - arjen/hugo-build:
         version: "0.14"
         theme: hugo-icarus-theme
