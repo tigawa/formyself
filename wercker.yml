@@ -1,14 +1,27 @@
-box: ubuntu
+box: debian
 build:
   steps:
-    - arjen/hugo-build:
-        version: 0.12
-        theme: hugo-icarus-theme
-        # flags: --buildDrafts=true
+    - install-packages:
+        packages: git
     - script:
-        name: create old RSS file
+        name: download theme
         code: |
-          cp public/index.xml public/atom.xml
+            $(git clone https://github.com/digitalcraftsman/hugo-icarus-theme.git ./themes/hugo-icarus-theme)
+    - arjen/hugo-build:
+        version: "0.14"
+        theme: hugo-icarus-theme
+        flags: --buildDrafts=true
+# box: ubuntu
+# build:
+#   steps:
+#     - arjen/hugo-build:
+#         version: 0.12
+#         theme: hugo-icarus-theme
+#         # flags: --buildDrafts=true
+#     - script:
+#         name: create old RSS file
+#         code: |
+#           cp public/index.xml public/atom.xml
 deploy:
   steps:
     - script:
