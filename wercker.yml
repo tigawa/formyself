@@ -3,7 +3,7 @@ build:
   steps:
     - install-packages:
         packages: git
-q    - arjen/hugo-build:
+    - arjen/hugo-build:
         version: "0.14"
         theme: hugo-icarus-theme
 #        flags: --buildDrafts=true
