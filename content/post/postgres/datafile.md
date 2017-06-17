@@ -34,6 +34,7 @@ PostgreSQLのテーブルファイルについて、について覚書です。
     ```
 
 - 物理ファイルの確認
+
     ```
     postgres@26f4d284871d:~/9.3/main/base/24582$ ls -l | grep 24595
     -rw------- 1 postgres postgres 13434880 Jun 17 16:51 24595

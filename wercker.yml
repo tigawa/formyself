@@ -3,10 +3,10 @@ build:
   steps:
     - install-packages:
         packages: git
-    - arjen/hugo-build:
+q    - arjen/hugo-build:
         version: "0.14"
         theme: hugo-icarus-theme
-        flags: --buildDrafts=true
+#        flags: --buildDrafts=true
 # box: ubuntu
 # build:
 #   steps:
