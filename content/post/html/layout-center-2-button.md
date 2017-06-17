@@ -49,15 +49,15 @@ banner = "banners/html5.png"
 
 ポイントは、次の通りです。
 
-### 一番外側の`div.continer`
+### 外側の`div.continer`
 
-- `max-width: 600px` で、`margin: auto`で中央寄せにする。
-- `text-align: center;`を指定して、内側の要素を中央寄せにする。
+- `max-width: 600px` で、`margin: auto`で中央寄せにします。
+- `text-align: center;`を指定して、内側の要素を中央寄せにします。
 
-### 次に内側の'div.section'
+### 内側の`div.section`
 
-- 'display: inline-block'を指定して、自身を中央寄せにする。
-- `text-align: left;`を指定して、内側の要素を左側にする。
+- `display: inline-block`を指定して、自身を中央寄せにします。
+- `text-align: left;`を指定して、内側の要素を左側にします。
 
 ## 補足
 
