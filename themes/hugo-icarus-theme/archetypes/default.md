@@ -1,10 +1,8 @@
 +++
-tags = []
-categories = []
+tags = ["html"]
 description = ""
-menu = ""
-banner = ""
-images = []
+banner = "banners/html5.png"
+draft = "true"
 +++
 
 <!--more-->
