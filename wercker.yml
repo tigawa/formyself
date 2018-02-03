@@ -6,38 +6,11 @@ build:
     - arjen/hugo-build:
         version: "0.14"
         theme: hugo-icarus-theme
-#        flags: --buildDrafts=true
-# box: ubuntu
-# build:
-#   steps:
-#     - arjen/hugo-build:
-#         version: 0.12
-#         theme: hugo-icarus-theme
-#         # flags: --buildDrafts=true
-#     - script:
-#         name: create old RSS file
-#         code: |
-#           cp public/index.xml public/atom.xml
+        flags: --buildDrafts=true
 deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    # - lukevivier/gh-pages@0.2.1:
-    #     token: $GIT_TOKEN
-    #     domain: hugo-wercker.ig.nore.me
-    #     basedir: public
-# deploy:
-#   steps:
-#     - script:
-#         name: install
-#         code: |
-#           sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
-#           sudo su -c "echo 'deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main' > /etc/apt/sources.list.d/git.list"
-#           sudo apt-get update
-#           sudo apt-get install -y git ssh-client
-#           sudo apt-get install -my wget gnupg
-    # - install-packages:
-    #     packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GITHUB_TOKEN
         domain: tigawa.github.com
