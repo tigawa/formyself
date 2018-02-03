@@ -1,8 +1,8 @@
 box: debian
 build:
   steps:
-    # - install-packages:
-    #     packages: git
+    - install-packages:
+        packages: git
     - arjen/hugo-build:
         version: "0.14"
         theme: hugo-icarus-theme
@@ -25,8 +25,8 @@ deploy:
         code: |
           sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
           sudo su -c "echo 'deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main' > /etc/apt/sources.list.d/git.list"
-          # sudo apt-get update
-          # sudo apt-get install -y git ssh-client
+          sudo apt-get update
+          sudo apt-get install -y git ssh-client
     # - install-packages:
     #     packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
