@@ -2,13 +2,12 @@
 banner = "banners/html5.png"
 date = "2017-06-19T00:51:55+09:00"
 description = ""
-draft = "true"
 tags = ["html"]
 title = "breakpoint"
 
 +++
 
-よくみるブレークポイント、ブラウザをまとめました。
+よくみるブレークポイント、ブラウザ
 
 <!--more-->
 ## ブレークポイント
@@ -30,11 +29,13 @@ title = "breakpoint"
 
 ## よくある環境
 
+* Mobile Safari
+* Android Google Chrome
 * Windows IE11
 * Windows Firefox 最新版
 * Windows Google Chrome 最新版
 * MacOSX Safari 最新版
 * MacOSX Firefox 最新版
 * MacOSX Google Chrome 最新版
-* Mobile Safari
-* Android Google Chrome
+
+以上
