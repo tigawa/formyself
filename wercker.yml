@@ -27,6 +27,7 @@ deploy:
           sudo su -c "echo 'deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main' > /etc/apt/sources.list.d/git.list"
           sudo apt-get update
           sudo apt-get install -y git ssh-client
+          sudo apt-get install -my wget gnupg
     # - install-packages:
     #     packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
