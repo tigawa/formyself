@@ -20,14 +20,22 @@ build:
 #           cp public/index.xml public/atom.xml
 deploy:
   steps:
-    - script:
-        name: install
-        code: |
-          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
-          sudo su -c "echo 'deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main' > /etc/apt/sources.list.d/git.list"
-          sudo apt-get update
-          sudo apt-get install -y git ssh-client
-          sudo apt-get install -my wget gnupg
+    - install-packages:
+        packages: git ssh-client
+    # - lukevivier/gh-pages@0.2.1:
+    #     token: $GIT_TOKEN
+    #     domain: hugo-wercker.ig.nore.me
+    #     basedir: public
+# deploy:
+#   steps:
+#     - script:
+#         name: install
+#         code: |
+#           sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E1DD270288B4E6030699E45FA1715D88E1DF1F24
+#           sudo su -c "echo 'deb http://ppa.launchpad.net/git-core/ppa/ubuntu trusty main' > /etc/apt/sources.list.d/git.list"
+#           sudo apt-get update
+#           sudo apt-get install -y git ssh-client
+#           sudo apt-get install -my wget gnupg
     # - install-packages:
     #     packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
