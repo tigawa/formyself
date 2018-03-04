@@ -4,7 +4,7 @@ build:
     - install-packages:
         packages: git
     - arjen/hugo-build:
-        version: "0.14"
+        version: "0.16"
         theme: hugo-icarus-theme
         flags: --buildDrafts=true
 deploy:
