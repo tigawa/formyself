@@ -1,10 +1,8 @@
 box: debian
 build:
   steps:
-    - install-packages:
-        packages: git
     - arjen/hugo-build:
-        version: "0.16"
+        version: "0.17"
         theme: hugo-icarus-theme
         flags: --buildDrafts=true
 deploy:
