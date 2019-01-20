@@ -4,17 +4,15 @@ date = "2016-01-01"
 +++
 [過去の記事を全てみる](/tags/python/)
 
-| 基本1                                  | 基本2                                             | 応用  |
-|--------------------------------------|-------------------------------------------------|-----|
-| [文字列、数値]({{< relref "String.md" >}}) | [クロージャ、ラムダ]({{< relref "closure_lambda.md" >}}) |     |
-| [正規表現]({{< relref "re.md" >}})       | [デレコータ]({{< relref "decorator.md" >}})          |     |
-| [辞書]({{< relref "dict.md" >}})       | [ジェネレータ]({{< relref "generator.md" >}})         |     |
-| [リスト]({{< relref "list.md" >}})      | [collections]({{< relref "collections.md" >}})  |     |
-| [タプル、集合]({{< relref "tuple.md" >}})  | [itertools]({{< relref "itertools.md" >}})      |     |
-| [if文、for文]({{< relref "code.md" >}}) |                                                 |     |
-| [引数]({{< relref "args.md" >}})       |                                                 |     |
-| [None]({{< relref "args.md" >}})     |                                                 |     |
-| [パッケージ]({{< relref "package.md" >}}) | [class定義]({{< relref "class.md" >}})            |     |
+基本1                                  | 基本2| 応用
+:----------------------------------- | :----------------------------------------------| :----------------------------------------------
+[文字列、数値]({{< relref "String.md" >}}) | [クロージャ、ラムダ]({{< relref "closure_lambda.md" >}}) |
+[正規表現]({{< relref "re.md" >}})       | [デレコータ]({{< relref "decorator.md" >}}) |
+[辞書]({{< relref "dict.md" >}})       | [ジェネレータ]({{< relref "generator.md" >}}) |
+[リスト]({{< relref "list.md" >}})      | [collections]({{< relref "collections.md" >}})|
+[タプル、集合]({{< relref "tuple.md" >}})  | [itertools]({{< relref "itertools.md" >}})|
+[if文、for文]({{< relref "code.md" >}}) |
+[パッケージ]({{< relref "package.md" >}}) | [class定義]({{< relref "class.md" >}})|
 
 <div style="display:inline-block">
 標準ライブラリ
