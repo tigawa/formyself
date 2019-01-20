@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.20"
+        version: "0.40"
         theme: hugo-icarus-theme
         config: second-config.toml
         flags: --disableKinds=["sitemap"]
