@@ -2,9 +2,9 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.39"
+        version: "0.35"
         theme: hugo-icarus-theme
-        flags: --disableKinds=["sitemap"]
+        flags: --buildDrafts=true
 deploy:
   steps:
     - install-packages:
