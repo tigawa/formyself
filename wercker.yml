@@ -4,7 +4,6 @@ build:
     - arjen/hugo-build:
         version: "0.40"
         theme: hugo-icarus-theme
-        config: second-config.toml
         flags: --disableKinds=["sitemap"]
 deploy:
   steps:
