@@ -2,7 +2,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.17"
+        version: "0.21"
         theme: hugo-icarus-theme
         flags: --buildDrafts=true
 deploy:
@@ -13,4 +13,4 @@ deploy:
         token: $GITHUB_TOKEN
         domain: tigawa.github.com
         basedir: public
-        repo: tigawa/tigawa.github.com
+#        repo: tigawa/tigawa.github.com
