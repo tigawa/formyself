@@ -1,0 +1,15 @@
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>
+      {{ now.Format "2006"}}
+      &mdash; built with 
+      <a href="https://gohugo.io/">Hugo <sub>{{ .Hugo.Version }}</sub></a>
+      {{ with .Site.Params.copyright }}{{ . | markdownify}}{{ end }}
+      <br /> <a href="/imprint">Imprint</a> &amp; <a href="/disclaimer">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+{{ partial "footer_js" . }}
+{{ partial "footer_custom_js" . }}
