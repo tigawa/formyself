@@ -1,14 +1,14 @@
 +++
-date = "{{ .Date }}"
-title = "?／12 週目 (20019/1 - 2019/4)"
+date = "2019-01-26T18:21:58+09:00"
+title = "1／12 週目 (20019/1 - 2019/4)"
 tags = ["commitment"]
 description = "達成したいことの確率を上げるために、公言します。"
 banner = "images/commitment/IMG_0503.jpg"
 author = "igawa.taiichi"
 +++
 
-4月まで全12週に分けて大きく計画を立てました。さらに１週間ごとの計画を立てました。  
-今週の目標を達成できるか、今後を占う第１週目のスタートです。  
+4月まで全12週に分けて大きく計画を立て、更に１週間ごとの計画を立てました。  
+今週の目標を達成できるか、今後を占う重要な第１週目のスタートです。  
 
 <!-- more -->
 
@@ -23,11 +23,11 @@ author = "igawa.taiichi"
 
 ## 今週の計画
 
-![](/images/commitment/week?_plan.jpeg)
+![](/images/commitment/week1_plan.jpeg)
 
 ## 今週の実績
 <!--
-![](/images/commitment/week?_plan.jpeg)
+![](/images/commitment/week1_plan.jpeg)
 -->
 
 ## まとめ
