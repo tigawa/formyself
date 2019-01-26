@@ -1,6 +1,6 @@
 +++
 date = "2019-01-26T18:21:58+09:00"
-title = "1／12 週目 (20019/1 - 2019/4)"
+title = "1／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
 description = "今週の目標を達成できるか、今後を占う重要な第１週目のスタートです。  "
 banner = "images/commitment/IMG_0503.jpg"
@@ -8,7 +8,7 @@ author = "taiichi.igawa"
 type = "post"
 +++
 
-4月まで全12週に分けて大きく計画を立て、更に１週間ごとの計画を立てました。  
+4月までを全12週に分けて計画を立て、更に１週間ごとに詳細な計画を立てました。  
 今週の目標を達成できるか、今後を占う重要な第１週目のスタートです。  
 
 <!-- more -->
@@ -26,11 +26,13 @@ type = "post"
 
 ○はスポットで勉強し、○がない行は基本的に毎日勉強します。
 
-![](/images/commitment/week1_plan.jpeg)
+目標を達成できた日は、スタンプをおします。アナログです。
+
+![計画](/images/commitment/week1_plan.jpeg)
 
 ## 今週の実績
 <!--
-![](/images/commitment/week1_plan.jpeg)
+![実績](/images/commitment/week1_plan.jpeg)
 -->
 
 ## まとめ
