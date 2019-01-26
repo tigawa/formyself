@@ -1979,3 +1979,9 @@ pre .javascript .function {
 #recent-post li:hover .item-title a {
   color: #38b7ea;
 }
+
+/* カスタマイズ START */
+.social-links td {
+  width: 50px;
+}
+/* カスタマイズ END   */
