@@ -11,7 +11,7 @@ banner = "https://cdn.tutsplus.com/webdesign/authors/ian-yates/octopress-header.
 
 ### 導入イメージ
 
-![カテゴリ](https://dl.dropboxusercontent.com/u/36134036/images/categories.png)
+![カテゴリ](/images/categories.png)
 
 - 次のサイトを参考にしたら、サクッと軽く導入できた！！
 - [octopressでカテゴリ表示する方法](http://qiita.com/items/944db11e257782749270)

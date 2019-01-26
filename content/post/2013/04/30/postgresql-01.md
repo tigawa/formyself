@@ -50,7 +50,7 @@ PostgreSQL 9.0からは、ホットスタンバイとストリーミングレプ
  用語 | 説明
 :-----------------|:-------------------------------
  データベースクラスタ | データベースの格納領域(以下ディレクトリ）
- ディレクトリ構造 | ![ツリー構造](https://dl.dropboxusercontent.com/u/36134036/images/PostgreSQL_Tree.png "ツリー構造")
+ ディレクトリ構造 | ![ツリー構造](/images/PostgreSQL_Tree.png "ツリー構造")
  PostgreSQLサーバ | PostgreSQLのデーモン、サービス
  インスタンス | データベースクラスタとPostgresQLサーバの組
  PostgreSQLの管理ユーザ | データベースクラスタを作成したOSユーザ

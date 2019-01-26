@@ -38,7 +38,7 @@ CUIでソースの差分を比較するのは、結構つらいのでGUIで比�
 		git difftool -d master
 
 以下のように起動します。左が`masterBranch`で、右がチェックアウト中の`topicBranch`になります。
-![スクリーンショット](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000000.JPG)
+![スクリーンショット](/images/octopress/WS000000.JPG)
 
 3. WinMergeから直接編集して保存しWinMergeを閉じてください。
 

@@ -62,7 +62,7 @@ ubuntuでは、**meld**というマージツールで実現する方法を紹介
         git difftool -d master
 
 以下のように起動します。左が`masterBranch`で、右がチェックアウト中の`topicBranch`になります。
-![スクリーンショット](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000001.JPG)
+![スクリーンショット](/images/octopress/WS000001.JPG)
 
 3. meldから直接編集して保存し閉じてください。
 

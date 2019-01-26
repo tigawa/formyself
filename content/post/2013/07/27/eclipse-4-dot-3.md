@@ -19,10 +19,10 @@ tags = ["eclipse"]
 次のサイトから`eclipse`と`pleiades`をダウンロードしてください。
 
 ## [eclipse](http://www.eclipse.org/downloads/)のダウンロードサイト
-![eclipseダウンロードサイト](https://dl.dropboxusercontent.com/u/36134036/images/eclipse_install_01.png)
+![eclipseダウンロードサイト](/images/eclipse_install_01.png)
 
 ## [pleiades](http://mergedoc.sourceforge.jp/index.html#/pleiades.html)のダウンロードサイト
-![pleiadesダウンロードサイト](https://dl.dropboxusercontent.com/u/36134036/images/plerades.png)
+![pleiadesダウンロードサイト](/images/plerades.png)
 
 # 事前準備
 インストールする前に次のディレクトリのインストール先を決めて置く

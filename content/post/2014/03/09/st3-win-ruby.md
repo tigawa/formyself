@@ -51,7 +51,7 @@ cTagというプラグインを選ばなかった理由
 	* [SublimeText3](http://www.sublimetext.com/3)
 
 		自分の環境は、Windows7 64ビット環境なので以下をダウンロードします。
- 		![ダウンロードサイト](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000002.JPG)
+ 		![ダウンロードサイト](/images/octopress/WS000002.JPG)
 
 2. インストール
 
@@ -69,7 +69,7 @@ cTagというプラグインを選ばなかった理由
 		```
 
 	4. 狭いですが画面下のテキストボックスに貼り付けてEnterを押下してください。
-	![貼り付け先](https://dl.dropboxusercontent.com/u/36134036/images/octopress/sublimetext3.png)
+	![貼り付け先](/images/octopress/sublimetext3.png)
 
 	**これでプラグインをインストールする準備が整いました。**
 
@@ -79,11 +79,11 @@ cTagというプラグインを選ばなかった理由
 
 2. "install"と入力して、以下を選択します。
 
-![選択したイメージ](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000003.JPG)
+![選択したイメージ](/images/octopress/WS000003.JPG)
 
 3. "IME Support"と入力して、以下を選択します。
 
-![実行結果](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000004.JPG)
+![実行結果](/images/octopress/WS000004.JPG)
 
 ### <span id="SublimeCodeIntel" /> SublimeCodeIntelのインストール
 
@@ -91,11 +91,11 @@ cTagというプラグインを選ばなかった理由
 
 2. "install"と入力して、以下を選択します。
 
-![選択したイメージ](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000003.JPG)
+![選択したイメージ](/images/octopress/WS000003.JPG)
 
 3. "SublimeCodeIntel"と入力して、以下を選択します。
 
-![実行結果](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000005.JPG)
+![実行結果](/images/octopress/WS000005.JPG)
 
 4. 初期設定
 
@@ -108,7 +108,7 @@ cTagというプラグインを選ばなかった理由
 				"ruby": "C:\\Ruby193\\bin\\ruby",
 				"rubyExtraPaths": ["C:\\Ruby193\\lib\\ruby\\gems\\1.9.1"]
 			}
-		![追記した結果](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000006.JPG)
+		![追記した結果](/images/octopress/WS000006.JPG)
 	6. 5で追記した部分を、Rubyのインストール場所に合わせて変更してください。  
 	　 **※少しハマったポイント**
 	   * ruby.exeまで指定するとエラーになります、rubyと指定してください。  
@@ -126,32 +126,32 @@ cTagというプラグインを選ばなかった理由
 4. SublimeText3を再起動します。  
 5. 'Ctrl+Shift+p'でPackage Controlを起動します。  
 6. "install"と入力して、以下を選択します。  
-![選択したイメージ](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000003.JPG)
+![選択したイメージ](/images/octopress/WS000003.JPG)
 7. "SublimeLinter-ruby"と入力して、以下を選択します。  
-![実行結果](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000007.JPG)
+![実行結果](/images/octopress/WS000007.JPG)
 8. 初期設定
 	1. メニューから　`Preferences > Package Settings > SublimeLinter > Settings-User`を選択します。  
 	2. "-Ku"を追記してください。  
-	![追記した結果](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000014.JPG)
+	![追記した結果](/images/octopress/WS000014.JPG)
 
 ### <span id="BeautifyRuby" />BeautifyRubyのインストール
 1. 'Ctrl+Shift+p'でPackage Controlを起動します。  
 
 2. "install"と入力して、以下を選択します。  
-![選択したイメージ](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000003.JPG)
+![選択したイメージ](/images/octopress/WS000003.JPG)
 
 3. "BeautifyRuby"と入力して、以下を選択します。  
-![実行結果](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000015.JPG)
+![実行結果](/images/octopress/WS000015.JPG)
 
 4. 初期設定
 	1. メニューから　`Preferences > Package Settings > BeautifyRuby > Settings-User`を選択します。  
 	2. 次のように環境に合わせて変更してください フォーマットすると同時に保存されるのが嫌だったので`false`に変更しています。  
 
 	変更前  
-	![変更前](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000019.JPG)
+	![変更前](/images/octopress/WS000019.JPG)
 
 	変更後  
-	![変更後](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000018.JPG)
+	![変更後](/images/octopress/WS000018.JPG)
 
 
 ### 全てのプラグインをインストールしたら
@@ -160,15 +160,15 @@ cTagというプラグインを選ばなかった理由
 ### 使い方 ＆ 動作確認
 #### IME Supportの動作確認  
 次のように全角の”あ”が入力できればOKです。  
-![IME Supportの動作確認](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000009.JPG)
+![IME Supportの動作確認](/images/octopress/WS000009.JPG)
 
 #### SublimeCodeIntelの動作確認
 次のように、Hashのメソッドを補完できればOKです。  
-![SublimeCodeIntelの動作確認](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000012.JPG)
+![SublimeCodeIntelの動作確認](/images/octopress/WS000012.JPG)
 
 #### SublimeLinterの動作確認
 次のように、クラスとメソッドの区切りを、".(ピリオド）"ではなく、",（カンマ）"に変更して、左側に赤●が付けばOKです。  
-![SublimeCodeIntelの動作確認](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000011.JPG)
+![SublimeCodeIntelの動作確認](/images/octopress/WS000011.JPG)
 
 #### BeautifyRubyの動作確認
 `ctrl + alt + k`を押下して、ソースコードがフォーマットされることを確認します。

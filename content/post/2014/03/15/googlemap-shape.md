@@ -45,7 +45,7 @@ banner = "banners/googleMaps.jpg"
 [地図データが公開されているサイト](http://www.okada.jp.org/RWiki/?ShapeFile%A5%E9%A5%A4%A5%D6%A5%E9%A5%EA#u174b44b)  
 
 次をクリックしてzipファイルをダウンロードします。  
-![ダウンロードサイト](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000031.JPG)
+![ダウンロードサイト](/images/octopress/WS000031.JPG)
 
 ダウンロードしたファイルを解凍して、`simanek.shp`を取り出します。
 
@@ -58,9 +58,9 @@ Shape FileをKML Fileに変換するためには、`QGIS`というアプリを�
 [http://www.qgis.org/ja/site/](http://www.qgis.org/ja/site/)
 
 次をクリックします。  
-![ダウンロードサイト１](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000025.JPG)
+![ダウンロードサイト１](/images/octopress/WS000025.JPG)
 自分のマシーンは、64bitのため次をクリックします。  
-![ダウンロードサイト2](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000026.JPG)
+![ダウンロードサイト2](/images/octopress/WS000026.JPG)
 
 ダウンロードしたファイルを実行して、インストールを開始します。  
 とくに迷わずインストールする事が出来ました。  
@@ -70,13 +70,13 @@ Shape FileをKML Fileに変換するためには、`QGIS`というアプリを�
 QGIS Desktopを起動します。  
 
 ブラウザタブから、先ほどダウンロードした、`simanek.shp`ファイルを開きます。  
-![KMLファイルを開く](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000032.JPG)
+![KMLファイルを開く](/images/octopress/WS000032.JPG)
 
 レイヤタブから、右クリックして`名前をつけて保存`を選択します。  
-![別名でファイルを保存](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000033.JPG)
+![別名でファイルを保存](/images/octopress/WS000033.JPG)
 
 KMLを選択してから、出力するファイル名を入力し、「OK」ボタンを押下します。  
-![KMLファイルに変換](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000034.JPG)
+![KMLファイルに変換](/images/octopress/WS000034.JPG)
 
 
 #### Step3 KML Fileを直接編集する
@@ -92,10 +92,10 @@ KMLを選択してから、出力するファイル名を入力し、「OK」ボ
 とりあえず、dropBoxに格納して、確認しています。  
 以下のリンクから、下記のサンプルを動作確認することが出来ます。  
 
-[動作確認](https://dl.dropboxusercontent.com/u/36134036/kml/index.html)  
+[動作確認](/kml/index.html)  
 
 KMLファイルとhtmlは次のように格納しています。  
-![フォルダ](https://dl.dropboxusercontent.com/u/36134036/images/octopress/WS000035.JPG)  
+![フォルダ](/images/octopress/WS000035.JPG)  
 
 サンプルソース  
 <script src="https://gist.github.com/tigawa/9584599.js"></script>

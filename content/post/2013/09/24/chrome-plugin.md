@@ -59,19 +59,19 @@ storeで公開する方法もありますが、今回は手っ取り早くchrome
 
 - chromeの設定から拡張機能を選択する
 
-   ![chromeの設定から拡張機能を選択する](https://dl.dropboxusercontent.com/u/36134036/images/chrome_tool.png)
+   ![chromeの設定から拡張機能を選択する](/images/chrome_tool.png)
 
 - "デベロッパーモード"にチェックをつけて、"パッケージ化されていない拡張機能を読み込む"を選択します。
 
-   ![「パッケージ化されていない拡張機能を読み込む」を選択します](https://dl.dropboxusercontent.com/u/36134036/images/chrome2.png)
+   ![「パッケージ化されていない拡張機能を読み込む」を選択します](/images/chrome2.png)
 
 - 上記で用意したディレクトリを選択します。
 
-   ![ディレクトリを選択します](https://dl.dropboxusercontent.com/u/36134036/images/chrome3.png)
+   ![ディレクトリを選択します](/images/chrome3.png)
 
 - ここまでで、先ほど登録した拡張機能がchromeから使えるようになります。次は実行イメージです。
 
-   ![実行イメージ](https://dl.dropboxusercontent.com/u/36134036/images/chrome4.png)
+   ![実行イメージ](/images/chrome4.png)
 
 どうでした？
 
