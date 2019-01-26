@@ -2,9 +2,10 @@
 date = "{{ .Date }}"
 title = "?／12 週目 (20019/1 - 2019/4)"
 tags = ["commitment"]
-description = "達成したいことの確率を上げるために、公言します。"
+description = "xxxxxxxxxxxxxxxxxxxxx"
 banner = "images/commitment/IMG_0503.jpg"
-author = "igawa.taiichi"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 4月まで全12週に分けて大きく計画を立てました。さらに１週間ごとの計画を立てました。  

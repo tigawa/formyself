@@ -2,9 +2,10 @@
 date = "2019-01-26T18:21:58+09:00"
 title = "1／12 週目 (20019/1 - 2019/4)"
 tags = ["commitment"]
-description = "達成したいことの確率を上げるために、公言します。"
+description = "今週の目標を達成できるか、今後を占う重要な第１週目のスタートです。  "
 banner = "images/commitment/IMG_0503.jpg"
-author = "igawa.taiichi"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 4月まで全12週に分けて大きく計画を立て、更に１週間ごとの計画を立てました。  
@@ -22,6 +23,8 @@ author = "igawa.taiichi"
 | C言語　全14章            | ■■□□□　□□□□□　□□□□ | 差異なし   |
 
 ## 今週の計画
+
+○はスポットで勉強し、○がない行は基本的に毎日勉強します。
 
 ![](/images/commitment/week1_plan.jpeg)
 
