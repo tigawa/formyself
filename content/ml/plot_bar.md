@@ -3,6 +3,8 @@ title = "ピボットテーブルを棒グラフで表示する"
 tags = ["機械学習"]
 date = "2016-07-16T02:00:00+09:00"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 [前回]({{< relref "pivot2.md" >}})ピボットテーブルで、割合を表示するテクニックを載せました。

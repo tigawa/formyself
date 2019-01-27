@@ -3,6 +3,8 @@ title = "pandasでindexを設定する方法"
 tags = ["機械学習"]
 date = "2016-07-17"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 pandasでindexを設定する方法を紹介します。

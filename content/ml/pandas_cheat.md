@@ -3,6 +3,8 @@ title = "pandasのチートシート"
 tags = ["機械学習"]
 date = "2016-07-16"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
 +++
 以下のサイトにpandasのチートシートがありました。
 ありがとうございます。

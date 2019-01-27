@@ -5,7 +5,8 @@ categories = []
 packages = []
 description = ""
 banner = ""
-author = "igawa.taiichi"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 <!--more-->

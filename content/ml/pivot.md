@@ -3,6 +3,8 @@ title = "pandasでピボットテーブルを扱う"
 tags = ["機械学習"]
 date = "2016-07-16T00:00:00+09:00"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 pandasでピボットテーブルを扱う方法を紹介します。

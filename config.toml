@@ -26,7 +26,7 @@ theme = "hugo-icarus-theme"
     date_format = "2006-01-02"
 
     # ここに セクション を加えるとHOMEに出力することができる
-    mainSections = ["post"]
+    mainSections = ["post", "ml"]
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
@@ -67,7 +67,7 @@ theme = "hugo-icarus-theme"
 [[params.menu]]
     before = true
     label  = "機械学習"
-    link   = "blog/2016/01/02/archives"
+    link   = "ml/archives/"
 
 # [[params.menu]]
 #     before = true

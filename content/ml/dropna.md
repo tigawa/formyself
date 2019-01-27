@@ -3,6 +3,9 @@ title = "dataFrameから欠損値を削除"
 tags = ["機械学習"]
 date = "2016-07-16"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
+
 +++
 
 欠損値があると、機械学習する際にエラーになるため、何かしら値を埋める必要があります。

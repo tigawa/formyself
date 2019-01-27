@@ -3,6 +3,8 @@ title = "pandasで特定の項目を編集する方法"
 tags = ["機械学習"]
 date = "2016-12-23"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 pandasで特定の項目を編集する方法を紹介します。

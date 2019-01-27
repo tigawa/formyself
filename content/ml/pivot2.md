@@ -3,6 +3,8 @@ title = "pandasでピボットテーブルで割合を表示する。"
 tags = ["機械学習"]
 date = "2016-07-16T01:00:00+09:00"
 banner = "banners/pandas.png"
+author = "taiichi.igawa"
+type = "post"
 +++
 
 [前回]({{< relref "pivot.md" >}})ピボットテーブルの表示の仕方を載せました。
