@@ -44,7 +44,6 @@ type = "post"
 
 ![１週間の勉強時間](/images/commitment/week11_chart.png)
 
-
 ## まとめ
 
 -- 今週の実績と合わせて記載します --
