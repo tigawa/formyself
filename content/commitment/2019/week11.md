@@ -28,12 +28,22 @@ type = "post"
 
 目標を達成できた日は、スタンプをおします。アナログです。
 
-![計画](/images/commitment/week1_plan.jpeg)
+![計画](/images/commitment/week11_plan.jpeg)
 
 ## 今週の実績
-<!--
-![実績](/images/commitment/week1_plan.jpeg)
--->
+水曜日時点で今のところ予定通り
+
+![途中経過](/images/commitment/week11_record.JPG)
+
+月曜日から水曜日までの勉強時間はこんな感じです。
+
+* 赤：エンベデッドの勉強
+* 青：機械学習の勉強
+* 黒；C#の勉強
+* 緑；読書の時間
+
+![１週間の勉強時間](/images/commitment/week11_chart.png)
+
 
 ## まとめ
 
