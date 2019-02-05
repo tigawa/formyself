@@ -3,7 +3,7 @@ title = "パブリックコミットメント"
 date = "2019-01-20T14:49:37+09:00"
 description = "達成したいことの確率を上げるために、公言します。"
 tags = ["commitment"]
-banner = "images/commitment/IMG_0503.jpg"
+banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
 +++

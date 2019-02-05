@@ -3,7 +3,7 @@ date = "{{ .Date }}"
 title = "?／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
 description = "xxxxxxxxxxxxxxxxxxxxx"
-banner = "images/commitment/IMG_0503.jpg"
+banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
 +++
@@ -23,11 +23,11 @@ type = "post"
 
 ## 今週の計画
 
-![実績](/images/commitment/week?_plan.jpeg)
+![計画](/images/commitment/week1?_plan.jpeg)
 
 ## 今週の実績
 <!--
-![実績](/images/commitment/week?_plan.jpeg)
+![実績](/images/commitment/week1?_done.jpeg)
 -->
 
 ## まとめ

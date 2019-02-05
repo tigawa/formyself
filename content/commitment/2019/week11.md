@@ -3,7 +3,7 @@ date = "2019-01-26T18:21:58+09:00"
 title = "1／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
 description = "今週の目標を達成できるか、今後を占う重要な第１週目のスタートです。  "
-banner = "images/commitment/IMG_0503.jpg"
+banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
 +++
@@ -33,7 +33,7 @@ type = "post"
 ## 今週の実績
 水曜日時点で今のところ予定通り
 
-![途中経過](/images/commitment/week11_record.JPG)
+![実績](/images/commitment/week11_done.jpeg)
 
 月曜日から水曜日までの勉強時間はこんな感じです。
 

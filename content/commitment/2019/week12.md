@@ -2,7 +2,7 @@
 date = "2019-02-03T19:31:29+09:00"
 title = "2／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
-banner = "images/commitment/IMG_0503.jpg"
+banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
 +++
@@ -22,11 +22,11 @@ type = "post"
 
 ## 今週の計画
 
-![実績](/images/commitment/week2_plan.jpeg)
+![計画](/images/commitment/week12_plan.jpeg)
 
 ## 今週の実績
 <!--
-![実績](/images/commitment/week2_plan.jpeg)
+![実績](/images/commitment/week12_plan.jpeg)
 -->
 
 ## まとめ
