@@ -31,7 +31,6 @@ type = "post"
 ![計画](/images/commitment/week11_plan.jpeg)
 
 ## 今週の実績
-水曜日時点で今のところ予定通り
 
 ![実績](/images/commitment/week11_done.jpeg)
 
