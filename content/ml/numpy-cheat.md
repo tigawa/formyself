@@ -106,21 +106,17 @@ print(X.dtype)
 ```python
 Z = np.arange(11)
 print(Z)
-```
 [ 0  1  2  3  4  5  6  7  8  9 10]
 
-
-```python
 print((3 < Z) & (Z <= 8))
-```
 [False False False False  True  True  True  True  True False False]
-
+```
 へー　これで、Trueと、Falseの配列が返ってくるんだね。
 
 ```python
 print(Z[(3 < Z) & (Z <= 8)])
-```
 [4 5 6 7 8]
+```
 
 更に、Z[]で囲ってあげると、Trueの箇所だけ取り出せます。
 
@@ -128,6 +124,6 @@ print(Z[(3 < Z) & (Z <= 8)])
 ```python
 Z[(3 < Z) & (Z <= 8)]　*= -1
 print(Z)
-```
 [ 0  1  2  3 -4 -5 -6 -7 -8  9 10]
+```
 
