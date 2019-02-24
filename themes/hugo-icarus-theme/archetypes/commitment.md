@@ -2,7 +2,7 @@
 date = "{{ .Date }}"
 title = "?／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
-description = "xxxxxxxxxxxxxxxxxxxxx"
+description = "?／12 週目 (2019/1 - 2019/4)の計画をパブリックコミットメントします!"
 banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
@@ -35,6 +35,6 @@ type = "post"
 -- 今週の実績と合わせて記載します --
 
 ### エンベデッド
-### 100 Numpy exercises
+### ゼロから作るDeep Learning
 ### 独習C\#
 
