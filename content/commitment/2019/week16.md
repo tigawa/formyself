@@ -1,20 +1,14 @@
 +++
-date = "2019-02-25T00:51:16+09:00"
-title = "5／12 週目 (2019/1 - 2019/4)"
+date = "2019-03-03T23:20:50+09:00"
+title = "6／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
-description = "5／12 週目 (2019/1 - 2019/4)の計画をパブリックコミットメントします!"
+description = "6／12 週目 (2019/1 - 2019/4)の計画をパブリックコミットメントします!"
 banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
 +++
 
-もうそろそろ中盤です。第４週目で少しペースダウン
-５週目で取り戻せるか...
-と思ったのですが、取り戻せず更にスケジュールが遅延しました。
-
-週の後半に残業が多くて、勉強できませんでした。
-23時くらいだと、がんばれましたが、0時を超えると流石に勉強をやめました。
-週末は引っ越し作業がしばらく続くため、来週は残業を抑えて平日がんばります。
+今週の目標を達成できるか、今後を占う第6週目のスタートです。  
 
 <!-- more -->
 
@@ -27,10 +21,22 @@ type = "post"
 | ゼロから作るDeep Learning | □□□□□ □□□                  | ２週間の遅れ |
 | 独習C\#　全14章          | xxxx　□□□□□　□□□□            | ５日の遅れ  |
 
+## 今週の計画
+
+![計画](/images/commitment/week16/week16_plan.JPG)
+
 ## 今週の実績
-![実績](/images/commitment/week15/week15_done.JPG)
-![勉強時間の合計](/images/commitment/week15/week15_circle.png)
-![勉強時間の分布](/images/commitment/week15/week15_chart.png)
+<!--
+![実績](/images/commitment/week16/week16_done.JPG)
+![勉強時間の合計](/images/commitment/week16/week16_circle.png)
+![勉強時間の分布](/images/commitment/week16/week16_chart.png)
+-->
+## まとめ
+-- 今週の実績と合わせて記載します --
+
+### エンベデッド
+### ゼロから作るDeep Learning
+### 独習C\#
 
 ## 計画全体
 * [1／12 週目 (2019/1 - 2019/4)]({{< relref "week11.md" >}})
@@ -39,4 +45,3 @@ type = "post"
 * [4／12 週目 (2019/1 - 2019/4)]({{< relref "week14.md" >}})
 * [5／12 週目 (2019/1 - 2019/4)]({{< relref "week15.md" >}})
 * [6／12 週目 (2019/1 - 2019/4)]({{< relref "week16.md" >}})
-
