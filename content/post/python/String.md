@@ -1,4 +1,4 @@
-+++
+"+++
 title = "pythonの文字列、数値を知る"
 tags = ["Python"]
 date = "2016-06-25"

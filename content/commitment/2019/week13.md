@@ -22,10 +22,6 @@ type = "post"
 | ゼロから作るDeep Learning | □□□□□ □□□                   | 差異なし   |
 | 独習C\#　全14章          | xxx□　□□□□□　□□□□             | 差異なし   |
 
-## 今週の計画
-
-![計画](/images/commitment/week13/week13_plan.JPG)
-
 ## 今週の実績
 ![実績](/images/commitment/week13/week13_done.JPG)
 ![勉強時間の合計](/images/commitment/week13/week13_circle.png)
@@ -53,6 +49,7 @@ type = "post"
 * [4／12 週目 (2019/1 - 2019/4)]({{< relref "week14.md" >}})
 * [5／12 週目 (2019/1 - 2019/4)]({{< relref "week15.md" >}})
 * [6／12 週目 (2019/1 - 2019/4)]({{< relref "week16.md" >}})
+* [7／12 週目 (2019/1 - 2019/4)]({{< relref "week17.md" >}})
 
 以上です。
 
