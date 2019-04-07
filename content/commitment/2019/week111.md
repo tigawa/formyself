@@ -1,14 +1,14 @@
 +++
-date = "2019-03-31T23:15:27+09:00"
-title = "10／12 週目 (2019/1 - 2019/4)"
+date = "2019-04-07T20:56:04+09:00"
+title = "11／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
-description = "10／12 週目 (2019/1 - 2019/4)の計画をパブリックコミットメントします!"
+description = "11／12 週目 (2019/1 - 2019/4)の計画をパブリックコミットメントします!"
 banner = "images/commitment/cover.jpg"
 author = "taiichi.igawa"
 type = "post"
 +++
 
-第10週目の結果です。  
+今週の目標を達成できるか、今後を占う第11週目のスタートです。  
 
 <!-- more -->
 
@@ -21,18 +21,22 @@ type = "post"
 | ゼロから作るDeep Learning | □□□□□ □□□                  | 一時停止   |
 | 独習C\#　全14章          | xxxx　□□□□□　□□□□            | 一時停止   |
 
+## 今週の計画
+
+![計画](/images/commitment/week111/week111_plan.JPG)
 
 ## 今週の実績
-![実績](/images/commitment/week110/week110_done.JPG)
-![勉強時間の合計](/images/commitment/week110/week110_circle.png)
-![勉強時間の分布](/images/commitment/week110/week110_chart.png)
-
+<!--
+![実績](/images/commitment/week111/week111_done.JPG)
+![勉強時間の合計](/images/commitment/week111/week111_circle.png)
+![勉強時間の分布](/images/commitment/week111/week111_chart.png)
+-->
 ## まとめ
-今週は１月から始めて今まで最低の週でした。
-何が原因なんだろうと考えました。実家に帰ったことで、少し自分に甘えがでたのと、木曜日にお酒の飲んで寝てしまったなど理由は様々
-ただ一番の原因は、朝早く出勤していたので、朝活の時間がなかったのが一番大きいと思います。
-朝活がないことで、勉強のリズムがつかめず、夜もまあいいかという感じ。
-来週こそは、がんばります！！
+-- 今週の実績と合わせて記載します --
+
+### エンベデッド
+### ゼロから作るDeep Learning
+### 独習C\#
 
 ## 計画全体
 * [1／12 週目 (2019/1 - 2019/4)]({{< relref "week11.md" >}})
@@ -46,4 +50,3 @@ type = "post"
 * [9／12 週目 (2019/1 - 2019/4)]({{< relref "week19.md" >}})
 * [10／12 週目 (2019/1 - 2019/4)]({{< relref "week110.md" >}})
 * [11／12 週目 (2019/1 - 2019/4)]({{< relref "week111.md" >}})
-
