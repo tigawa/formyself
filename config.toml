@@ -66,6 +66,11 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = true
+    label  = "C#"
+    link   = "c-sharp/archives/"
+
+[[params.menu]]
+    before = true
     label  = "機械学習"
     link   = "ml/archives/"
 

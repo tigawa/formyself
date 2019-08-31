@@ -3,6 +3,7 @@ date = "2019-01-30T23:58:19+09:00"
 tags = ["C#"]
 categories = ["プログラミング言語"]
 description = "JavaプログラーマーによるC言語のちょっとした記事"
+title = "ざっとC#の歴史"
 banner = "banners/csharp.png"
 author = "taiichi.igawa"
 type = "post"
@@ -25,7 +26,7 @@ C#について、勉強したことを自分のために少しづつまとめて
 * 4.0 動的言語ランタイムに関する新機能
 ~ 途中 ~
 
-## C#の特定
+## 実行環境
 * C#の実行には、.NET Frameworkを必要とする。
 
 ## .NET Frameworkとは
@@ -35,7 +36,6 @@ C#について、勉強したことを自分のために少しづつまとめて
 ```
 
 * ソースコード -> 中間言語 MSIL -> JIT(Just in time)コンパイラに実行可能なコードに変換して実行する。
-
 
 
 <!--more-->

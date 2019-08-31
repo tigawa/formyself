@@ -6,6 +6,7 @@ description = "Today I Learned"
 banner = "banners/til.png"
 author = "taiichi.igawa"
 type = "post"
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
 +++
 
 <!--more-->

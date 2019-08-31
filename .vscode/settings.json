@@ -1,5 +1,0 @@
-// [markdown] 言語に対して上書きされるエディター設定を構成します。
-"[markdown]": {
-    "editor.wordWrap": "on",
-    "editor.quickSuggestions": true
-}

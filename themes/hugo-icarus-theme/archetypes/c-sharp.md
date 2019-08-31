@@ -1,5 +1,6 @@
 +++
 date = "{{ .Date }}"
+title = "{{.File.BaseFileName}}"
 tags = ["C#"]
 categories = ["プログラミング言語"]
 description = "JavaプログラーマーによるC言語のちょっとした記事"
