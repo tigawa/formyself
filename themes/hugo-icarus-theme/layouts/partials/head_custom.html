@@ -7,11 +7,10 @@
 <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
 <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -23,14 +22,17 @@
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="{{ .Site.Params.piwikURL }}";
-      _paq.push(['setTrackerUrl', u+'piwik.php']);
+    (function () {
+      var u = "{{ .Site.Params.piwikURL }}";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
       _paq.push(['setSiteId', '{{ .Site.Params.piwikID }}']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
     })();
   }
 </script>
-<noscript><p><img src="{{ .Site.Params.piwikURL }}piwik.php?idsite={{ .Site.Params.piwikID }}&rec=1" style="border:0;" alt="" /></p></noscript>
+<noscript>
+  <p><img src="{{ .Site.Params.piwikURL }}piwik.php?idsite={{ .Site.Params.piwikID }}&rec=1" style="border:0;" alt="" />
+  </p>
+</noscript>
 {{ end }}

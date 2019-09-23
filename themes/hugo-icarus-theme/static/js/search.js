@@ -7,6 +7,62 @@ var lunrResult; //lunr の結果オブジェクト
 var CATEGORYS = ['til', 'ml', 'c-sharp', 'post'];
 
 /**
+ * A function for splitting a string into bigram.
+ *
+ * @static
+ * @param {?(string|object|object[])} obj - The object to convert into tokens
+ * @param {?object} metadata - Optional metadata to associate with every token
+ * @returns {lunr.Token[]}
+ */
+function bigramTokeniser(obj, metadata) {
+    if (obj == null || obj === undefined) {
+        return []
+    }
+
+    if (Array.isArray(obj)) {
+        return obj.map(function (t) {
+            return new lunr.Token(
+                lunr.utils.asString(t).toLowerCase(),
+                lunr.utils.clone(metadata)
+            )
+        })
+    }
+
+    let str = obj.toString().trim().toLowerCase()
+    let tokens = []
+
+    for (let i = 0; i <= str.length - 2; i++) {
+        var tokenMetadata = lunr.utils.clone(metadata) || {}
+        tokenMetadata['position'] = [i, i + 2]
+        tokenMetadata['index'] = tokens.length
+        tokens.push(
+            new lunr.Token(
+                str.slice(i, i + 2),
+                tokenMetadata
+            )
+        )
+    }
+    return tokens
+}
+
+/**
+ * A function for separating a string into bigram and join it with space.
+ *
+ * @static
+ * @param {?string} query - The string to convert into tokens
+ * @returns {string}
+ */
+function queryNgramSeparator(query) {
+    const str = query.toString().trim().toLowerCase()
+    const tokens = []
+
+    for (let i = 0; i <= str.length - 2; i++) {
+        tokens.push(str.slice(i, i + 2))
+    }
+    return tokens.join(' ')
+}
+
+/**
  * Preparation for using lunr.js
  */
 function initLunr() {
@@ -27,15 +83,16 @@ function makeLunrIndex() {
     });
     // Object を Array に変更
     pagesIndex = Object.values(pagesIndex);
-    lunrIndex = lunr(function () {
-        this.use(lunr.ja)
-        this.ref('ref')
-        this.field('title', { boost: 10 })
-        this.field('body')
-        this.metadataWhitelist = ['position']
-        pagesIndex.forEach(function (page) {
-            this.add(page);
-        }, this);
+    lunrIndex = lunr(function (builder) {
+        builder.tokenizer = bigramTokeniser
+        builder.pipeline.reset()
+        builder.ref('ref')
+        builder.field('title', { boost: 10 })
+        builder.field('body')
+        builder.metadataWhitelist = ['position']
+        for (let page of pagesIndex) {
+            builder.add(page)
+        }
     });
 }
 
@@ -45,7 +102,7 @@ function makeLunrIndex() {
  * @return {Object[]} Array of search results
  */
 function search(query) {
-    lunrResult = lunrIndex.search(query)
+    lunrResult = lunrIndex.search(queryNgramSeparator(query))
     return lunrResult.map(function (result) {
         return pagesIndex.filter(function (page) {
             return page.ref === result.ref
@@ -57,15 +114,14 @@ function search(query) {
  * Setup UI for Search
  */
 function initUI() {
-
     // Clear query when clear icon is clicked
     $('#searchBoxIcon').click(function () {
-        $('#searchBox').val('')
-        $('#searchBox').trigger('keyup')
+        $('#searchBoxInput').val('')
+        $('#searchBoxInput').trigger('keyup')
     })
 
     // Event when chenging query
-    $('#searchBox').keyup(function () {
+    $('#searchBoxInput').keyup(function () {
         var $searchResults = $('#searchResults')
         var query = $(this).val()
 
@@ -84,14 +140,13 @@ function initUI() {
             return
         }
 
-
         // Display search results
         renderResults(search(query))
         $searchResults.show()
     })
 
     // Emit keyup event for when the query is already setted with browser back etc.
-    $('#searchBox').trigger('keyup')
+    $('#searchBoxInput').trigger('keyup')
 }
 
 /**
@@ -100,7 +155,7 @@ function initUI() {
  */
 function renderResults(results) {
     var $searchResults = $('#searchResults')
-    var query = $('#searchBox').val()
+    var query = $('#searchBoxInput').val()
     var BODY_LENGTH = 100
     var MAX_PAGES = 10
 
@@ -117,13 +172,10 @@ function renderResults(results) {
     results.slice(0, MAX_PAGES).forEach(function (result, idx) {
         var $searchResultPage = $('<div class="searchResultPage">')
         var metadata = lunrResult[idx].matchData.metadata
-        var body = metadata[Object.keys(metadata)[0]].body
-        if (!body) return;
-        var matchPosition = body.position[0][0]
+        var matchPosition = metadata[Object.keys(metadata)[0]].body ? metadata[Object.keys(metadata)[0]].body.position[0][0] : 0
         var bodyStartPosition = (matchPosition - (BODY_LENGTH / 2) > 0) ? matchPosition - (BODY_LENGTH / 2) : 0
 
         $searchResultPage.append('<a class="searchResultTitle" href="' + result.ref + '">' + result.title + '</a>')
-
         $searchResultPage.append('<div class="searchResultBody">' + result.body.substr(bodyStartPosition, BODY_LENGTH) + '</div>')
         $searchResults.append($searchResultPage)
 
