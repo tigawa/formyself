@@ -34,4 +34,9 @@ public class SDic<TKey, TValue> : Dictionary<TKey, TValue> where TValue : new()
 }
 ```
 
+### インデクサーのべからず集
+
+* 参照パラメータや出力パラメータとしてメソッドにわたすことはできません。
+* インデクサーはstatic修飾子をつけて宣言できません。
+
 以上です。
