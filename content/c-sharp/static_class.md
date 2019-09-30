@@ -3,7 +3,6 @@ date = "2019-09-07T11:43:30+09:00"
 title = "静的クラスと静的コンストラクタ"
 tags = ["C#"]
 categories = ["プログラミング言語"]
-description = "JavaプログラーマーによるC言語のちょっとした記事"
 banner = "banners/csharp.png"
 author = "taiichi.igawa"
 type = "post"

@@ -2,7 +2,6 @@
 date = "2019-01-30T23:58:19+09:00"
 tags = ["C#"]
 categories = ["プログラミング言語"]
-description = "JavaプログラーマーによるC言語のちょっとした記事"
 title = "ざっとC#の歴史"
 banner = "banners/csharp.png"
 author = "taiichi.igawa"
@@ -10,6 +9,8 @@ type = "post"
 +++
 
 C#について、勉強したことを自分のために少しづつまとめていきます。
+
+<!--more-->
 
 ## ざっとC#の歴史
 
