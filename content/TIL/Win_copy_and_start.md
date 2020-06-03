@@ -1,6 +1,14 @@
-+++ date = "2019-11-27T08:07:30+09:00" tags = ["TIL"] categories = ["TIL"] banner = "banners/til.png" author = "taiichi.igawa" type = "post" title = "win Bat copy-open" +++
++++
+date = "2020-06-04T08:35:36+09:00"
+tags = ["TIL"]
+categories = ["TIL"]
+banner = "banners/til.png"
+author = "taiichi.igawa"
+type = "post"
+title = "特定のフォルダにファイルをコピーして開くサンプル"
 
 コード
+```
 @echo off
 setlocal
 
@@ -14,5 +22,11 @@ copy /Y %src_file% %dst_file%
 start "hoge" %dst_file%
 
 endlocal
+```
 
+## ちょっとはまったところ
+- ファイル名に空白を含むと正しく起動しない。
+
+## 解決方法
+- `start "hoge"`のように`hoge`を付けて回避する。
 
