@@ -6,8 +6,8 @@ banner = "banners/til.png"
 author = "taiichi.igawa"
 type = "post"
 title = "特定のフォルダにファイルをコピーして開くサンプル"
++++
 
-コード
 ```
 @echo off
 setlocal
@@ -29,4 +29,3 @@ endlocal
 
 ## 解決方法
 - `start "hoge"`のように`hoge`を付けて回避する。
-
