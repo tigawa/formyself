@@ -8,4 +8,4 @@ type = "post"
 title = "Vscodeのプラグインおすすめ"
 +++
 
-- [ここのサイトがすごく参考になる](https://qiita.com/sensuikan1973/items/74cf5383c02dbcd82234)J
+- [ここのサイトがすごく参考になる](https://qiita.com/sensuikan1973/items/74cf5383c02dbcd82234)
