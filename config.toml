@@ -15,10 +15,9 @@ theme = "hugo-icarus-theme"
 
 [params]
     # Tell me who you are
-    author = "taiichi.igawa"
-    bio = "Blogger - Programmer"
+    author = "igawa.taiichi"
     location = "Japan - Shimane"
-    site_description = "it's a piece of cake."
+    site_description = "明日の自分のためのノート"
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
 
