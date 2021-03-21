@@ -4,7 +4,7 @@ title = "?／12 週目 (2019/1 - 2019/4)"
 tags = ["commitment"]
 description = "?／12 週目 (2019/1 - 2019/4)の計画をパブリックコミットメントします!"
 banner = "images/commitment/cover.jpg"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 +++
 

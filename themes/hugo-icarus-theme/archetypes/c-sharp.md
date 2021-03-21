@@ -4,7 +4,7 @@ title = "{{.File.BaseFileName}}"
 tags = ["C#"]
 categories = ["プログラミング言語"]
 banner = "banners/csharp.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 +++
 
