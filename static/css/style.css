@@ -699,7 +699,7 @@ a:visited {
 #profile .inner .article-info .article-info-block {
   width: 50%;
   float: left;
-  padding: 20px 15px;
+  padding: 5px 4px;
   text-align: center;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1985,6 +1985,7 @@ pre .javascript .function {
 /* カスタマイズ START */
 .social-links td {
   width: 50px;
+  text-align: center;
 }
 
 #searchBox {
