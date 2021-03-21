@@ -3,7 +3,7 @@ date = "2019-11-27T08:07:30+09:00"
 tags = ["TIL"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 title = "BAT雛形"
 +++

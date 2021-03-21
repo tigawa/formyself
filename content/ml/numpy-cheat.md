@@ -4,7 +4,7 @@ tags = ["機械学習"]
 title = "NumPyチートシート"
 description = "NumPyに関する基本的な知識をまとめていきます。"
 banner = "images/ml/cheat-sheet.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 +++
 

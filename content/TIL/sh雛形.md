@@ -3,7 +3,7 @@ date = "2019-10-06T10:18:07+09:00"
 tags = ["Linux"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 title = "シェルスクリプト雛形"
 +++
 

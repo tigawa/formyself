@@ -4,7 +4,7 @@ tags = ["機械学習"]
 title = "scikit-learn algorithm cheat-sheet の歩き方"
 description = "scikit-learn algorithm cheat-sheet をどのように使えばよいか整理しました。"
 banner = "images/ml/cheat-sheet.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 +++
 scikit-learn algorithm cheat-sheet をどのように使えばよいか整理しました。

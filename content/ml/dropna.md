@@ -3,7 +3,7 @@ title = "dataFrameから欠損値を削除"
 tags = ["機械学習"]
 date = "2016-07-16"
 banner = "banners/pandas.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 
 +++

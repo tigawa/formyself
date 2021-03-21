@@ -3,7 +3,7 @@ title = "pandasで性別を数値に変更する方法"
 tags = ["機械学習"]
 date = "2016-07-18"
 banner = "banners/pandas.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 +++
 

@@ -3,7 +3,7 @@ date = "2020-06-04T08:35:36+09:00"
 tags = ["TIL"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 title = "特定のフォルダにファイルをコピーして開くサンプル"
 +++

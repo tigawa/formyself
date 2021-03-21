@@ -3,7 +3,7 @@ title = "pandasで特定の条件に一致する行の、特定の項目を更�
 tags = ["機械学習"]
 date = "2016-07-17"
 banner = "banners/pandas.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 
 +++

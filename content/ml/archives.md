@@ -1,7 +1,7 @@
 +++
 title = "機械学習"
 date = "2016-01-02"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 tags = ["機械学習"]
 type = "post"
 +++

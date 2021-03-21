@@ -3,7 +3,7 @@ date = "2020-02-08T14:57:32+09:00"
 tags = ["TIL"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 title = "sam local cheat sheet"
 +++

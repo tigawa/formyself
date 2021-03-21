@@ -3,7 +3,7 @@ date = "2020-02-08T14:41:51+09:00"
 tags = ["javascript","node.jp"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 title = "Promiseをthenでつなげて、Promiseを呼び出す方法"
 +++

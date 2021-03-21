@@ -3,7 +3,7 @@ date = "2019-10-06T13:46:38+09:00"
 tags = ["TIL"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 title = "Hugoのserverコマンドでブラウザも同時に起動する方法"
 +++

@@ -4,7 +4,7 @@ tags = ["C#"]
 categories = ["プログラミング言語"]
 title = "ざっとC#の歴史"
 banner = "banners/csharp.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 +++
 

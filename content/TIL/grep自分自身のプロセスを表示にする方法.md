@@ -3,7 +3,7 @@ date = "2019-10-06T12:33:55+09:00"
 tags = ["linux"]
 categories = ["TIL"]
 banner = "banners/til.png"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 type = "post"
 title = "ps時にGrep自身のプロセスを非表示にする方法"
 +++

@@ -2,7 +2,7 @@
 title = "C#"
 date = "2019-08-15T11:56:10+09:00"
 description = "JavaプログラーマーによるC言語のちょっとした記事"
-author = "taiichi.igawa"
+author = "igawa.taiichi"
 +++
 
 [過去の記事を全てみる](/tags/c#/)
