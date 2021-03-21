@@ -1,5 +1,5 @@
 +++
-date = "2021-03-20T22:50:q48+09:00"
+date = "2021-03-20T22:50:48+09:00"
 tags = ["aws"]
 categories = ["aws"]
 banner = "banners/icons8-amazon-web-services.svg"
