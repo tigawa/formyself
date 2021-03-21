@@ -73,6 +73,11 @@ theme = "hugo-icarus-theme"
     label  = "機械学習"
     link   = "ml/archives/"
 
+[[params.menu]]
+    before = true
+    label  = "ショートカット"
+    link   = "cheat/shortcut/"
+
 # [[params.menu]]
 #     before = true
 #     label  = "bookmarks"
@@ -115,7 +120,7 @@ theme = "hugo-icarus-theme"
     reddit          = ""
     pinterest       = ""
     googleplus      = ""
-    facebook        = "taiichi.igawa"
+    facebook        = "igawa.taiichi"
     facebook_admin  = ""
     twitter_domain  = ""
     twitter         = "ttigawa"
