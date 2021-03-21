@@ -799,6 +799,8 @@ a:visited {
   max-width: 100%;
   height: auto;
   background-size: cover;
+  margin: 0 auto;
+  display: block;
 }
 .article-meta:before,
 .article-meta:after {
