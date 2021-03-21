@@ -2076,4 +2076,36 @@ pre .javascript .function {
   padding: 20px 0;
   text-align: left;
 }
+
+/* 目次 */
+.xToc {
+  float: right;
+  font-size: smaller;
+  border-radius: 0.5em;
+  border: solid 1px lightgray;
+  padding: 0.5em 1em;
+  margin: 4px;
+  line-height: 2;
+  background-color: #f9f9f9;
+}
+.xToc_title {
+  font-weight: bolder;
+}
+.xToc ul {
+  margin: 1px 5px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.xToc li {
+  padding-top: 0 !important;
+}
+.xToc li > ul {
+  padding-left: 1em;
+  width: 100%;
+}
+.xToc a {
+  font-weight: normal;
+  display: block;
+  /* border-bottom: dashed 1px lightgray; */
+}
 /* カスタマイズ END   */

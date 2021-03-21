@@ -6,6 +6,16 @@
 
         {{ partial "article_header" . }}
         <div class="article-entry" itemprop="articleBody">
+            <!-- 目次 -->
+            {{ if gt (len .TableOfContents) 33 }}
+                {{- with .TableOfContents }}
+                <aside class="xToc">
+                    <div class="xToc_title">目次</div>
+                    {{ . }}
+                </aside>
+                {{- end }}
+            {{- end }}
+
             {{ .Content }}
             {{ partial "widgets/ad/googleBottom" . }}
         </div>
