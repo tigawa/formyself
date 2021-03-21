@@ -797,6 +797,7 @@ a:visited {
 }
 .article-banner {
   max-width: 100%;
+  max-height: 200px;
   height: auto;
   background-size: cover;
   margin: 0 auto;
