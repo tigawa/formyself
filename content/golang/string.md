@@ -10,7 +10,7 @@ type = "post"
 
 `%#v`を指定すると構造体の型名、フィールド名、値をわかりやすく表示します。
 
-```
+```golang
     f := &Foo{Bar: 1, Baz: "Hello, W+D Press!"}
 
     fmt.Printf("%#v \n", f)
@@ -20,7 +20,7 @@ type = "post"
 
 `%v`を指定すると構造体の値のみを表示します。
 
-```
+```golang
     f := &Foo{Bar: 1, Baz: "Hello, W+D Press!"}
 
     fmt.Printf("%v \n", f)
