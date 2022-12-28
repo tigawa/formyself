@@ -1,28 +1,27 @@
 {{ partial "head" . }}
+<body>
+	<div class="container">
+		{{ partialCached "header" . }}
 
-<div id="container">
-	{{ partialCached "header" . }}
+		<div class="outer">
+			{{ if not .Params.disable_profile }}
+			{{ partialCached "profile" . }}
+			{{ end }}
 
-	<div class="outer">
-		{{ if not .Params.disable_profile }}
-		{{ partialCached "profile" . }}
-		{{ end }}
+			<section id="main">
+				<div id="searchBox">
+					<input type="text" id="searchBoxInput" placeholder="Search..." />
+					<img id="searchBoxIcon" src="/img/search.png" />
+				</div>
+				<div id="searchResults" class="searchResults"></div>
+				{{ block "main" . }}{{ end }}
+			</section>
 
-		<section id="main">
-			<div id="searchBox">
-				<input type="text" id="searchBoxInput" placeholder="Search..." />
-				<img id="searchBoxIcon" src="/img/search.png" />
-			</div>
- 			<div id="searchResults" class="searchResults"></div>
-			{{ block "main" . }}{{ end }}
-		</section>
-
-		{{ if not .Params.disable_widgets }}
-		{{ partial "sidebar" . }}
-		{{ end }}
+			{{ if not .Params.disable_widgets }}
+			{{ partial "sidebar" . }}
+			{{ end }}
+		</div>
 	</div>
-</div>
-
 {{ partialCached "footer" . }}
 </body>
 </html>
