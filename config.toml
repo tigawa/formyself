@@ -25,7 +25,7 @@ theme = "hugo-icarus-theme"
     date_format = "2006-01-02"
 
     # ここに セクション を加えるとHOMEに出力することができる
-    mainSections = ["post", "ml", "c-sharp","til", "golang", "java", "git", "Python", "aws"]
+    mainSections = ["post", "ml", "c-sharp","TIL","til", "golang", "java", "git", "Python", "aws"]
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
