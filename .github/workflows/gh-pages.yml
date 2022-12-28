@@ -33,4 +33,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: tigawa/tigawa.github.com
           publish_branch: master
-          cname: www.igawa.blog
+          cname: igawa.blog
