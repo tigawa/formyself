@@ -2,7 +2,7 @@ baseurl = "https://igawa.blog/"
 languageCode = "ja"
 title = "For myself tomorrow"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "tigawa"
+disqusShortname = "ta.igawa"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-40396882-1"
 # Define the number of posts per page
@@ -25,7 +25,7 @@ theme = "hugo-icarus-theme"
     date_format = "2006-01-02"
 
     # ここに セクション を加えるとHOMEに出力することができる
-    mainSections = ["post", "ml", "c-sharp","TIL"]
+    mainSections = ["post", "ml", "c-sharp","TIL", "golang", "java", "git", "Python", "aws"]
 
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
@@ -37,11 +37,6 @@ theme = "hugo-icarus-theme"
     before = true
     label  = "Home"
     link   = "/"
-
-[[params.menu]]
-    before = true
-    label  = "java"
-    link   = "tags/java"
 
 [[params.menu]]
     before = true
@@ -60,6 +55,11 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = true
+    label  = "java"
+    link   = "tags/java"
+
+[[params.menu]]
+    before = true
     label  = "Python"
     link   = "blog/2016/01/01/archives"
 
@@ -75,6 +75,11 @@ theme = "hugo-icarus-theme"
 
 [[params.menu]]
     before = true
+    label  = "aws"
+    link   = "aws/"
+
+[[params.menu]]
+    before = true
     label  = "機械学習"
     link   = "ml/archives/"
 
@@ -83,20 +88,9 @@ theme = "hugo-icarus-theme"
     label  = "ショートカット"
     link   = "cheat/shortcut/"
 
-# [[params.menu]]
-#     before = true
-#     label  = "bookmarks"
-#     link   = "blog/2016/07/14/bookmark/"
-
-# [[params.menu]]
-#     before = false
-#     label  = "Categories"
-#     link   = "categories/"
-
 # Enter a link for the follow button on the left
 [params.profile]
     follow_button = "https://github.com/tigawa"
-
 
 [social]
 # Add your social network accounts to the profile section on the left
