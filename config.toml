@@ -18,7 +18,7 @@ theme = "hugo-icarus-theme"
     author = "igawa.taiichi"
     location = "Japan - Shimane"
     site_description = "明日の自分のためのノート"
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](https://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
 
     # Format dates with Go's time formatting
